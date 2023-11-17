@@ -8,7 +8,7 @@ $$
 m = 2k_1 \text{  e  }n = 2k_2 + 1,
 $$
 
-onde $k_1,k_2 \in \Z$.
+onde $k_1,k_2 \in \mathbb{Z}$.
 
 Um resultado relevante para o nosso objetivo final é que:
 
