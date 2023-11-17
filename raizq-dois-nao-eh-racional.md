@@ -33,9 +33,11 @@ $$
 $$
 
 Fazendo $k_1 = 2k^2 + 2k$, teremos
+
 $$
 p^2 = 2k_1 + 1,
 $$
+
 que é impar. *Absurdo!* por hipótese, $p^2$ é par.
 
 Agora veremos a demonstração de que
@@ -44,22 +46,28 @@ Agora veremos a demonstração de que
 
 **Prova:** Vamos supor por absurdo que $\sqrt{2}$ é um número racional.
 
-Sejam $p, q \in \Z$ tais que $mdc(p, q) = 1$ de forma que 
+Sejam $p, q \in \mathbb{Z}$ tais que $mdc(p, q) = 1$ de forma que 
+
 $$
 \sqrt{2} = \frac{p}{q}.
 $$
+
 Com estas considerções, o racional $p/q$ está escrito na sua forma mais simples. Agora façamos
+
 $$
 (\sqrt{2})^2 = (\frac{p}{q})^2,\\
 2 = \frac{p^2}{q^2},\\
 p^2 = 2q^2.
 $$
- $p^2 = 2q^2$, implica pelo *Lema* que $p$ é par e poderá ser escrito como $p = 2k, k\in \Z.$
+
+$p^2 = 2q^2$, implica pelo *Lema* que $p$ é par e poderá ser escrito como $p = 2k, k\in \Z.$
 
 Então teríamos 
+
 $$
 (2k)^2 = 2q^2,\\
 4k^2 = 2q^2,\\
 2k^2 = q^2.
 $$
+
 De forma que também teríamos, pelo *Lema* acima que $q$ é par. Absurdo! como ter $p$ e $q$ ambos pares, se $mdc(p,q) = 1$?.
