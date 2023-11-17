@@ -15,9 +15,11 @@ Um resultado relevante para o nosso objetivo final é que:
 **Lema:** Dado $p \in \mathbb{Z}$, se $p$ é par, então $p^2$ é par.
 
 **Prova:** Suponhamos por absurdo que $p^2$ é par e $p$ é ímpar. Então, se $p$ é ímpar, podemos escrevê-lo como
+
 $$
-p = 2k + 1, k \in \Z.
+p = 2k + 1, k \in \mathbb{Z}.
 $$
+
 Sendo assim
 
 $$
