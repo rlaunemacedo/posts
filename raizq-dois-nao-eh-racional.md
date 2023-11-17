@@ -2,10 +2,10 @@
 
 Neste artigo traremos uma demonstração simples de que $\sqrt{2}$ não é um número racional. Para tanto relembraremos alguns outros resultados também simple sobre os inteiros.
 
-Primeiro vamos lembrar que, se $ m \in Z $ é par e $ n \in Z $ é impar, então podemos escrevê-los na forma
-\[
+Primeiro vamos lembrar que, se $m \in Z$ é par e $n \in Z$ é impar, então podemos escrevê-los na forma
+$$
 m = 2k_1 \text{  e  }n = 2k_2 + 1,
-\]
+$$
 onde $k_1,k_2 \in \Z$.
 
 Um resultado relevante para o nosso objetivo final é que:
