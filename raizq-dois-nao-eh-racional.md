@@ -12,7 +12,7 @@ onde $k_1,k_2 \in \mathbb{Z}$.
 
 Um resultado relevante para o nosso objetivo final é que:
 
-**Lema:** Dado $p \in \Z$, se $p$ é par, então $p^2$ é par.
+**Lema:** Dado $p \in \mathbb{Z}$, se $p$ é par, então $p^2$ é par.
 
 **Prova:** Suponhamos por absurdo que $p^2$ é par e $p$ é ímpar. Então, se $p$ é ímpar, podemos escrevê-lo como
 $$
