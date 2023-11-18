@@ -18,7 +18,7 @@ o lista das possibilidades será: $1, 2, 3, 4, 5,$ ou $6$.
 Seja
 
 $$
-$D \\{ 1, 2, 3, 4, 5, 6 \\}$
+D = \\{ 1, 2, 3, 4, 5, 6 \\}
 $$
 
 Imformalmente $D$ está definido como o **conjunto** em que cada um dos seus **elementos cumpre** a seguinte **propriedade**: *é uma possibilidade de leitura em um lançamento de um dado regular*.
