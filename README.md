@@ -5,4 +5,5 @@ Neste repositório estão armazenados meus artigos e estudos principalmente sobr
 Nesta seção pretendo atualizar os links para os artigos.
 
 **Lista**
-1. 
+
+1. [Raiz quadrada de dois não é um número racional](https://github.com/rlaunemacedo/artigos/blob/main/raizq-dois-nao-eh-racional.md).
