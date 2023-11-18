@@ -42,11 +42,11 @@ Ao desenvolver o segundo membro de (Eq.2), temos que
 
 $$
 \frac{k(k + 1)}{2} + (k + 1) = \frac{k(k + 1)}{2} + \frac{2(k + 1)}{2}
+$$
 
 2n(n+1)​+(k+1)=2k(k+1)​+22(k+1)​
 n(n+1)2+(k+1)=(k+1)(k+2)2,
 2n(n+1)​+(k+1)=2(k+1)(k+2)​,
-$$
 
 ou como queríamos
 (1+2+3+...+k)+(k+1)=(k+1)[(k+1)+1]2.
