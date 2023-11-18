@@ -1,5 +1,5 @@
-## Princípio da Indução
-#principiodainducao
+## Princípio da Indução #principiodainducao
+Por R N Launé Macêdo
 
 O princípio da indução é uma ferramenta muito útil para demonstrar propriedades inerentes 
 principalmente aos números naturais.
