@@ -1,5 +1,5 @@
 ## Axiomas de Peano
-Por R N Launé Macêdo
+**Por R N Launé Macêdo**
 
 #axiomasdepeano
 
