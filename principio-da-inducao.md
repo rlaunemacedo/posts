@@ -1,4 +1,5 @@
-
+## Princípio da Indução
+#principiodainducao
 
 O princípio da indução é uma ferramenta muito útil para demonstrar propriedades inerentes 
 principalmente aos números naturais.
@@ -7,8 +8,8 @@ Neste artigo iremos enunciar o princípio da indução de duas formas e demonstr
 Antes porém iremos ilustar a simplicidade da técnica para demonstrar que a soma dos $n$ primeiros 
 números naturais é obtida pela fórmula:
 
-$$ \tag{1}
-1+2+3+...+n=n(n+1)2.
+$$ \tag{Eq.1}
+1+2+3+...+n=\frac{n(n+1)}{2}.
 $$
 
 A técnica consiste em provarmos primeiramente que o resultado é válido para $1$, 
