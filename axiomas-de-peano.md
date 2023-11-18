@@ -14,7 +14,7 @@ Basicamente ele estabeleceu que o conjunto dos números Naturais ($\mathbb{N}$) 
 
 . o seu sucessor $s(n)$ também estiver em $X$, então $X$ é o próprio $\mathbb{N}$.
 
-O segundo axioma afirma que a função sucessor $s:N→N$ é injetiva. 
+O segundo axioma afirma que a função sucessor $s:N \to N$ é injetiva. 
 O terceiro axioma nos fala do número $1$. O último axioma será estudado mais tarde 
 como sendo o **Princípio da Indução**.
 
