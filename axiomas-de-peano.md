@@ -26,7 +26,7 @@ Os conjunto dos números Naturais é caracterizado por:
 
 1. Existe uma função injetiva $s:N \to N$ e a imagem $s(n)$ de cada número $n \in \mathbb{N}$  chama-se sucessor de $n$;
 
-2. Existe um único $1 \in \mathbb{N}$, tal que $1 \neq s(n)$, para todo $n \in \mathbb{N}$.
+2. Existe um único $1 \in \mathbb{N}$, tal que $1 \neq s(n)$, para todo $n \in \mathbb{N}$;
 
 3. Se $X \subset \mathbb{N}$ é tal que $1 \in X$ e $n \in X$ implica em $s(n) \in X$, então $X=N$.
 
