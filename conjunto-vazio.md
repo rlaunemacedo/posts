@@ -23,14 +23,30 @@ $$
 
 Imformalmente, $D$ está definido como o **conjunto** em que cada um dos seus **elementos cumpre** a seguinte **propriedade**: *é uma possibilidade de leitura em um lançamento de um dado regular*.
 
-Agora, seja
+Defina
 
 $$
 P = \\{ x; x \in D, x \text{ é par} \\}.
 $$
 
-Faremos a seguinte leitura: " $P$ é o conjunto dos elementos $x$, tal que, cada $x$ é um elemento de $D$ e é par ".
+Faremos a seguinte leitura: " $P$ é o conjunto dos elementos $x$, tais que, cada $x$ é um elemento de $D$ e é par ".
+E podemos listar
 
+$$
+P = \\{ 2,4,6 \\}.
+$$
+
+Agora, seja
+
+$$
+P = \\{ x; x \in D, x > 6 \\},
+$$
+
+Ou seja, o conjuntos dos elementos de $D$ que são maiores do que $6$, neste caso teremos:
+
+$$
+P = \\{  \\}.
+$$
 
 ...........................
 
