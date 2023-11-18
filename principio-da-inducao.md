@@ -39,7 +39,7 @@ $$
 Note que
 
 $$\tag{Eq.2}
-1 + 2 + 3 + ... + k + (k + 1) = \frac{k(k + 1)}{2} + (k + 1).
+(1 + 2 + 3 + ... + k) + (k + 1) = \frac{k(k + 1)}{2} + (k + 1).
 $$
 
 Ao desenvolver o segundo membro de (Eq.2), temos que
