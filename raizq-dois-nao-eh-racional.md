@@ -60,7 +60,7 @@ $$
 p^2 = 2q^2.
 $$
 
-$p^2 = 2q^2$, implica pelo *Lema* que $p$ é par e poderá ser escrito como $p = 2k, k\in \mathbb{Z}$.
+$p^2 = 2q^2$, implica, pelo *Lema*, que $p$ é par e poderá ser escrito como $p = 2k, k \in \mathbb{Z}$.
 
 Então teríamos 
 
