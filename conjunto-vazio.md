@@ -44,4 +44,9 @@ $$
 
 Ou seja, $Q$ é o conjuntos dos elementos de $D$ que são maiores do que $6$, neste caso acabamos de definir um conjunmto vazio que abreviamos $Q = \\{  \\}$ ou $Q = \varnothing$.
 
-Pronto! Como a quantidade de pontos na face superior um dado regular não supera 6, segue que Q não possui elementos.
+Em particular, toda interseção de conjuntos **disjuntos** define o conjunto vazio. Basta observar neste exemplo que 
+
+$$
+Q = \\{1,2,3,4,5,6\\} \cap \\{x \in \mathbb{R}; x > 6\\} = \varnothing.
+$$
+
