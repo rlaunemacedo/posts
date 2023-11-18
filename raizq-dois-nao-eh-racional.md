@@ -60,7 +60,7 @@ $$
 p^2 = 2q^2.
 $$
 
-$p^2 = 2q^2$, implica pelo *Lema* que $p$ é par e poderá ser escrito como $p = 2k, k\in \Z.$
+$p^2 = 2q^2$, implica pelo *Lema* que $p$ é par e poderá ser escrito como $p = 2k, k\in \mathbb{Z}$.
 
 Então teríamos 
 
@@ -70,4 +70,4 @@ $$
 2k^2 = q^2.
 $$
 
-De forma que também teríamos, pelo *Lema* acima que $q$ é par. Absurdo! como ter $p$ e $q$ ambos pares, se $mdc(p,q) = 1$?.
+E, pelo *Lema* acima, $q$ também é par. Absurdo, pois $mdc(p,q) = 1$.
