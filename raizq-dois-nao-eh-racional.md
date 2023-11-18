@@ -76,3 +76,5 @@ $$
 $$
 
 E, pelo *Lema* acima, $q$ também é par. Absurdo, pois $mdc(p,q) = 1$.
+
+Busque mais [aqui](https://github.com/rlaunemacedo/artigos).
