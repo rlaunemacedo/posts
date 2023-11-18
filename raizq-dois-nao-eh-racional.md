@@ -3,7 +3,7 @@
 
 #raizquadradadedois
 
-### $\sqrt{2} \notin \mathbb{Q}$) 
+### $\sqrt{2} \notin \mathbb{Q}$ 
 
 Neste artigo traremos uma demonstração simples de que $\sqrt{2}$ não é um número racional. Para tanto relembraremos alguns outros resultados também simple sobre os inteiros.
 
