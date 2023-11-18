@@ -10,3 +10,4 @@ Nesta seção pretendo atualizar os links para os artigos.
 
 . [Os axiomas de Peano](https://github.com/rlaunemacedo/artigos/blob/main/axiomas-de-peano.md)
 
+. [Princípio da Indução](https://github.com/rlaunemacedo/artigos/blob/main/principio-da-inducao.md)
