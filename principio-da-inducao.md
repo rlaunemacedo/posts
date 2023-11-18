@@ -45,10 +45,10 @@ $$
 = \frac{k(k + 1) + 2(k + 1)}{2}
 $$
 
-\begin{align*}
+$${align}
  f(x) &= (x+a)(x+b) \\
       &= x^2 + (a+b)x + ab
-\end{align*}
+$${align}
 
 
 ou como queríamos
