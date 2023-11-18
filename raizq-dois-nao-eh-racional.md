@@ -55,7 +55,7 @@ $$
 Com estas considerções, o racional $p/q$ está escrito na sua forma mais simples. Agora façamos
 
 $$
-(\sqrt{2})^2 = (\frac{p}{q})^2,\\
+(\sqrt{2})^2 = (\frac{p}{q})^2 \implies
 2 = \frac{p^2}{q^2},\\
 p^2 = 2q^2.
 $$
