@@ -13,7 +13,7 @@ Ao lançarmos um dado regular, se levarmos em conta a quantidade de pontos na fa
 o conjunto das possibilidades será $D = \{1, 2, 3, 4, 5, 6\}$, infoemalmente, $D$  é um conjunto e $1, 2, 3, 4, 5, 6$ são seus elementos. Agora vamos analisar este outro conunto:
 
 $$
-W=\{x; x \in D, x \text{é par}}.
+W=\{ x; x \in D, x \text{ é par} \}.
 $$
 
 Faremos a seguinte leitura: " $W$ é o conjunto dos elementos $x$, tal que, cada $x$ é um elemento de $D$ e que é maior do que $6$ ".
