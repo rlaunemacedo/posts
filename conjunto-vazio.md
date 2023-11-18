@@ -7,16 +7,33 @@
 
 Se definirmos simplesmente que **conjunto é uma reunião de elementos** ficaria uma definição um pouco vaga, uma vez que existe o conjunto vazio. Então vamos adotar uma outra abordagem, vamos definir cojunto a partir de uma propriedade que seus elementos possam (ou não) cumprir.
 
-Vamos discutir a noção de conjunto vazio a partir de um exemplo.
+Vamos discutir a noção de conjunto vazio a partir de um exemplo. Antes... 
+
+### Vamos definir um conjunto $D$
 
 Ao lançarmos um dado regular, se levarmos em conta a quantidade de pontos na face superior, 
-o conjunto das possibilidades será $D = \\{1, 2, 3, 4, 5, 6 \\}$, infoemalmente, $D$  é um conjunto e $1, 2, 3, 4, 5, 6$ são seus elementos. Agora vamos analisar este outro conunto:
+o lista das possibilidades será: $1, 2, 3, 4, 5, 6$.
+
+Vamos chamar de **L** a propriedade "a quantidade de pontos na face superior"
+
+Seja
+
+$$
+D = \\{ x; x \text{cumpre a propriedade} L \\}
+$$
+
+infoemalmente, $D$  é um conjunto e $1, 2, 3, 4, 5, 6$ são seus elementos. Agora vamos analisar este outro conunto:
 
 $$
 W = \\{ x; x \in D, x \text{ é par} \\}.
 $$
 
 Faremos a seguinte leitura: " $W$ é o conjunto dos elementos $x$, tal que, cada $x$ é um elemento de $D$ e que par ".
+
+No primeiro caso enunciamos o cunjunto D a partir da exibição de uma listagem de possibilidades que resolvem a propriedade **L** (de Leitura):
+
+**L:** "a quantidade de pontos na face superior"
+
 
 Notemos que o cunjunto DD foi definido arrolando os seus elementos entre chaves, mas poderíamos definí-lo também a partir de uma propriedade, por exemplo
 D={n∈N;1≤n≤6},
