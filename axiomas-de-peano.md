@@ -34,3 +34,4 @@ Os conjunto dos números Naturais é caracterizado por:
 
 3. Se $X \subset \mathbb{N}$ é tal que $1 \in X$ e $n \in X$ implica em $s(n) \in X$, então $X=N$.
 
+Busque mais [aqui](https://github.com/rlaunemacedo/artigos).
