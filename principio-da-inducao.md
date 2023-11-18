@@ -46,8 +46,8 @@ $$
 $$
 
 $${align}
- f(x) &= (x+a)(x+b) \\
-      &= x^2 + (a+b)x + ab
+ f(x) = (x+a)(x+b) \\
+      = x^2 + (a+b)x + ab
 $${align}
 
 
