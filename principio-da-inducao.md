@@ -7,8 +7,8 @@ Neste artigo iremos enunciar o princípio da indução de duas formas e demonstr
 Antes porém iremos ilustar a simplicidade da técnica para demonstrar que a soma dos $n$ primeiros 
 números naturais é obtida pela fórmula:
 
-$$
-1+2+3+...+n=n(n+1)2.(eq:1)
+$$ \eq_1
+1+2+3+...+n=n(n+1)2.
 $$
 
 A técnica consiste em provarmos primeiramente que o resultado é válido para $1$, 
