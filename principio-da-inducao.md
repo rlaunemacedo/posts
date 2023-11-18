@@ -57,8 +57,6 @@ $$
 $$
 
 
-ou como queríamos
-(1+2+3+...+k)+(k+1)=(k+1)[(k+1)+1]2.
-(1+2+3+...+k)+(k+1)=2(k+1)[(k+1)+1]​.
+como queríamosprovar.
 
 Assista ao vídeo: Axiomas de Peano
