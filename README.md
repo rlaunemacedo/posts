@@ -6,6 +6,7 @@ Nesta seção pretendo atualizar os links para os artigos.
 
 **Lista**
 
+. [Conjunto vazio](https://github.com/rlaunemacedo/artigos/blob/main/conjunto-vazio.md)
 . [Raiz quadrada de dois não é um número racional](https://github.com/rlaunemacedo/artigos/blob/main/raizq-dois-nao-eh-racional.md).
 
 . [Os axiomas de Peano](https://github.com/rlaunemacedo/artigos/blob/main/axiomas-de-peano.md)
