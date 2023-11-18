@@ -57,6 +57,6 @@ $$
 $$
 
 
-como queríamosprovar.
+como queríamos provar.
 
-Assista ao vídeo: Axiomas de Peano
+Assista ao vídeo: [Axiomas de Peano](https://www.youtube.com/watch?v=U3M25j9e4cw)
