@@ -21,30 +21,19 @@ $$
 D = \\{ 1, 2, 3, 4, 5, 6 \\}
 $$
 
-Imformalmente $D$ está definido como o **conjunto** em que cada um dos seus **elementos cumpre** a seguinte **propriedade**: *é uma possibilidade de leitura em um lançamento de um dado regular*.
+Imformalmente, $D$ está definido como o **conjunto** em que cada um dos seus **elementos cumpre** a seguinte **propriedade**: *é uma possibilidade de leitura em um lançamento de um dado regular*.
+
+Seja
+$$
+P = \\{ x; x \in D, x \text{ é par} \\}.
+$$
+
+Faremos a seguinte leitura: " $P$ é o conjunto dos elementos $x$, tal que, cada $x$ é um elemento de $D$ e é par ".
 
 
 ...........................
 
 
-
-**Problema $P$:** Fazer a leitura do lançamento de um dado regular.
-
-Vamos chamar de **$L$** a propriedade " **a quantidade de pontos na face superior** "
-
-Seja
-
-$$
-D = \\{ x \in P; x \text{ cumpre a propriedade } L \\}
-$$
-
-infoemalmente, $D$  é um conjunto e $1, 2, 3, 4, 5, 6$ são seus elementos. Agora vamos analisar este outro conunto:
-
-$$
-W = \\{ x; x \in D, x \text{ é par} \\}.
-$$
-
-Faremos a seguinte leitura: " $W$ é o conjunto dos elementos $x$, tal que, cada $x$ é um elemento de $D$ e que par ".
 
 No primeiro caso enunciamos o cunjunto D a partir da exibição de uma listagem de possibilidades que resolvem a propriedade **L** (de Leitura):
 
