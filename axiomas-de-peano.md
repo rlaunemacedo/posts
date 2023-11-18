@@ -1,4 +1,8 @@
 ## Axiomas de Peano
+Por R N Launé Macêdo
+
+#axiomasdepeano
+
 A caracterização analítica do **Conjunto dos Números Naturais** foi postulada por um 
 matemático italiano chamado de Giusepe Peano em torno de 1900.
 
