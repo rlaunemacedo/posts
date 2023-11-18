@@ -13,7 +13,7 @@ Então vamos adotar uma outra abordagem, vamos definir cojunto a partir de uma p
 Vejamos a seguinte situação:
 
 Ao lançarmos um dado regular, se levarmos em conta a quantidade de pontos na face superior, 
-o lista das possibilidades será: $1, 2, 3, 4, 5,$ ou $6$.
+a lista das possibilidades será: $1, 2, 3, 4, 5,$ ou $6$.
 
 Seja
 
