@@ -4,11 +4,11 @@ matemático italiano chamado de Giusepe Peano em torno de 1900.
 
 Basicamente ele estabeleceu que o conjunto dos números Naturais ($\mathbb{N}$) é caracterizado por:
 
-    . Todo número natural $n$ tem um sucessor $s(n)$;
-    . Dois números com o mesmo sucessor são iguais;
-    . Existe um número $n_0$​ que não é sucessor de outro qualquer;
-    . Se um dado subconjunto $X$, dos naturais, possui $n_0$​ e, para cada um dos seus elementos $n$, 
-    . o seu sucessor $s(n)$ também estiver em $X$, então $X$ é o próprio $\mathbb{N}$.
+. Todo número natural $n$ tem um sucessor $s(n)$;
+. Dois números com o mesmo sucessor são iguais;
+. Existe um número $n_0$​ que não é sucessor de outro qualquer;
+. Se um dado subconjunto $X$, dos naturais, possui $n_0$​ e, para cada um dos seus elementos $n$, 
+. o seu sucessor $s(n)$ também estiver em $X$, então $X$ é o próprio $\mathbb{N}$.
 
 O segundo axioma afirma que a função sucessor $s:N→N$ é injetiva. 
 O terceiro axioma nos fala do número $1$. O último axioma será estudado mais tarde 
