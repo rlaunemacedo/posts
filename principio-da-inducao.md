@@ -30,7 +30,11 @@ $$
 
 é verdadeira.
 
-3. E vamos verificar se o mesmo se dá para $n = k + 1$.
+3. E vamos verificar se o mesmo se dá para $n = k + 1$. Queremos provar que:
+
+$$
+1 + 2 + 3 + ... + k + (k+1) = \frac{(k + 1)[(k + 1) + 1]}{2}.
+$$
 
 Note que
 
