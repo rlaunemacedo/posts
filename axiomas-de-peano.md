@@ -19,13 +19,14 @@ O terceiro axioma nos fala do número $1$. O último axioma será estudado mais 
 como sendo o **Princípio da Indução**.
 
 A notação mais formal apresenta apenas três axiomas, como segue.
-Os Axiomas de PeanosPermalink
+
+### Os Axiomas de Peanos
 
 Os conjunto dos números Naturais é caracterizado por:
 
-    Existe uma função injetiva s:N→Ns:N→N e a imagem s(n)s(n) de cada número n∈Nn∈N chama-se sucessor de nn;
+1. Existe uma função injetiva $s:N \to N$ e a imagem $s(n)$ de cada número $n \in \mathbb{N}$  chama-se sucessor de $n$;
 
-    Existe um único 1∈N1∈N, tal que 1≠s(n)1=s(n), para todo n∈Nn∈N.
+2. Existe um único $1 \in \mathbb{N}$, tal que $1 \neq s(n)$, para todo $n \in \mathbb{N}$.
 
-    Se X⊂NX⊂N é tal que 1∈X1∈X e n∈Xn∈X implica em s(n)∈Xs(n)∈X, então X=NX=N.
+3. Se $X \subset \mathbb{N}$ é tal que $1 \in X$ e $n \in X$ implica em $s(n) \in X$, então $X=N$.
 
