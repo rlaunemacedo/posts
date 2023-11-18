@@ -16,7 +16,7 @@ A técnica consiste em provarmos primeiramente que o resultado é válido para $
 assumirmos que vale para um certo $n = k \in N$ e, ao provarmos que vale para o seu sucessor 
 $n = k + 1$, concluir quevale para todo $n \in N$.
 
-1. De fato, para $n = 1$, a igualdade $(Eq.1)$ é verdadeira. Veja,
+1. De fato, para $n = 1$, a igualdade $(\tag{Eq.1})$ é verdadeira. Veja,
 
 $$
 1 = \frac{1(1+1)}{2}.
