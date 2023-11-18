@@ -5,14 +5,26 @@
 
 ### O que vem a ser um conjunto vazio?
 
-Se definirmos simplesmente que **conjunto é uma reunião de elementos** ficaria uma definição um pouco vaga, uma vez que existe o conjunto vazio. Então vamos adotar uma outra abordagem, vamos definir cojunto a partir de uma propriedade que seus elementos possam (ou não) cumprir.
+Se definirmos simplesmente que **conjunto é uma reunião de elementos** ficaria um pouco contraditório dizer que um conjunto vazio é aquele que **não tem elementos**.
 
-Vamos discutir a noção de conjunto vazio a partir de um exemplo. Antes... 
 
-### Vamos definir um conjunto $D$
+Então vamos adotar uma outra abordagem, vamos definir cojunto a partir de uma propriedade que seus elementos possam (ou não) cumprir.
+
+Vamos discutir a noção de conjunto vazio a partir de um exemplo.
 
 Ao lançarmos um dado regular, se levarmos em conta a quantidade de pontos na face superior, 
 o lista das possibilidades será: $1, 2, 3, 4, 5,$ ou $6$.
+
+$$
+Seja $D \\{ 1, 2, 3, 4, 5, 6 \\}$
+$$
+
+Imformalmente $D$ está definido como o **conjunto** em que cada um dos seus **elementos cumpre** a seguinte **propriedade**: *é uma possibilidade de leitura em um lançamento de um dado regular*.
+
+
+...........................
+
+
 
 **Problema $P$:** Fazer a leitura do lançamento de um dado regular.
 
