@@ -10,7 +10,7 @@ Se definirmos simplesmente que **conjunto é uma reunião de elementos** ficaria
 
 Então vamos adotar uma outra abordagem, vamos definir cojunto a partir de uma propriedade que seus elementos possam (ou não) cumprir.
 
-Vamos discutir a noção de conjunto vazio a partir de um exemplo.
+Vejamos a seguinte situação:
 
 Ao lançarmos um dado regular, se levarmos em conta a quantidade de pontos na face superior, 
 o lista das possibilidades será: $1, 2, 3, 4, 5,$ ou $6$.
