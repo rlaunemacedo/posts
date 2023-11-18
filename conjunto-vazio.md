@@ -14,12 +14,14 @@ Vamos discutir a noção de conjunto vazio a partir de um exemplo. Antes...
 Ao lançarmos um dado regular, se levarmos em conta a quantidade de pontos na face superior, 
 o lista das possibilidades será: $1, 2, 3, 4, 5,$ ou $6$.
 
-Vamos chamar de $L$ a propriedade " **a quantidade de pontos na face superior** "
+**Problema $P$:** Fazer a leitura do lançamento de um dado regular.
+
+Vamos chamar de **$L$** a propriedade " **a quantidade de pontos na face superior** "
 
 Seja
 
 $$
-D = \\{ x; x \text{ cumpre a propriedade } L \\}
+D = \\{ x \in P; x \text{ cumpre a propriedade } L \\}
 $$
 
 infoemalmente, $D$  é um conjunto e $1, 2, 3, 4, 5, 6$ são seus elementos. Agora vamos analisar este outro conunto:
