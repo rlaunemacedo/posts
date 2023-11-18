@@ -42,13 +42,8 @@ Ao desenvolver o segundo membro de (Eq.2), temos que
 
 $$
 \frac{k(k + 1)}{2} + (k + 1) = \frac{k(k + 1)}{2} + \frac{2(k + 1)}{2}
-= \frac{k(k + 1)}{2} + \frac{2(k + 1)}{2}
+= \frac{k(k + 1) + 2(k + 1)}{2}
 $$
-
-\begin{align}
- f(x) &= (x+a)(x+b) \\
-      &= x^2 + (a+b)x + ab
-\end{align}
 
 ou como queríamos
 (1+2+3+...+k)+(k+1)=(k+1)[(k+1)+1]2.
