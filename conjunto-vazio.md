@@ -42,28 +42,6 @@ $$
 Q = \\{ x; x \in D, x > 6 \\},
 $$
 
-Ou seja, $Q$ é o conjuntos dos elementos de $D$ que são maiores do que $6$, neste caso acabamos de definir um conjunmto vazio que abreviamos $Q = \\{  \\}$ ou $Q = \empty$.
-$$
+Ou seja, $Q$ é o conjuntos dos elementos de $D$ que são maiores do que $6$, neste caso acabamos de definir um conjunmto vazio que abreviamos $Q = \\{  \\}$ ou $Q = \varnothing$.
 
-...........................
-
-
-
-No primeiro caso enunciamos o cunjunto D a partir da exibição de uma listagem de possibilidades que resolvem a propriedade **L** (de Leitura):
-
-**L:** "a quantidade de pontos na face superior"
-
-
-Notemos que o cunjunto DD foi definido arrolando os seus elementos entre chaves, mas poderíamos definí-lo também a partir de uma propriedade, por exemplo
-D={n∈N;1≤n≤6},
-D={n∈N;1≤n≤6},
-
-como foi definido o conjunto WW.
-
-Se a propriedade PP (PP: “o elemento xx pertence a DD e é maior do que 6”) for definida desta forma será um conjunto. Como não há qualquer xx que cumpra PP, podemos escrever
-W={x∈D;x>6}={x;x∈P}={}=∅.,
-W={x∈D;x>6}={x;x∈P}={}=∅.,
-
-Pronto! Como todas as possibilidades do lançamento de um dado regular não superam 6, segue que WW não possui elementos.
-
-Até a próxima!
+Pronto! Como a quantidade de pontos na face superior um dado regular não supera 6, segue que Q não possui elementos.
