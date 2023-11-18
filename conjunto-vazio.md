@@ -21,7 +21,7 @@ $$
 D = \\{ 1, 2, 3, 4, 5, 6 \\}
 $$
 
-Imformalmente, $D$ está definido como o **conjunto** em que cada um dos seus **elementos cumpre** a seguinte **propriedade**: *é uma possibilidade de leitura em um lançamento de um dado regular*.
+Imformalmente, $D$ poderia ser definido como o **conjunto** em que cada um dos seus **elementos cumpre** a seguinte **propriedade**: *é uma possibilidade de leitura em um lançamento de um dado regular*.
 
 Defina
 
