@@ -7,7 +7,7 @@ Neste artigo iremos enunciar o princípio da indução de duas formas e demonstr
 Antes porém iremos ilustar a simplicidade da técnica para demonstrar que a soma dos $n$ primeiros 
 números naturais é obtida pela fórmula:
 
-$$ \eq_1
+$$ \tag{1}
 1+2+3+...+n=n(n+1)2.
 $$
 
