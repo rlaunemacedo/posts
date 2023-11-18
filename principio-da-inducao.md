@@ -41,7 +41,8 @@ $$
 Ao desenvolver o segundo membro de (Eq.2), temos que
 
 $$
-\frac{k(k + 1)}{2} + (k + 1) = \frac{k(k + 1)}{2} + \frac{2(k + 1)}{2}
+\frac{k(k + 1)}{2} + (k + 1) &= \frac{k(k + 1)}{2} + \frac{2(k + 1)}{2}
+&= \frac{k(k + 1)}{2} + \frac{2(k + 1)}{2}
 $$
 
 
