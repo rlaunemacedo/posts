@@ -39,13 +39,10 @@ $$
 Agora, seja
 
 $$
-P = \\{ x; x \in D, x > 6 \\},
+Q = \\{ x; x \in D, x > 6 \\},
 $$
 
-Ou seja, o conjuntos dos elementos de $D$ que são maiores do que $6$, neste caso teremos:
-
-$$
-P = \\{  \\}.
+Ou seja, $Q$ é o conjuntos dos elementos de $D$ que são maiores do que $6$, neste caso acabamos de definir um conjunmto vazio que abreviamos $Q = \\{  \\}$ ou $Q = \empty$.
 $$
 
 ...........................
