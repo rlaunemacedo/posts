@@ -51,3 +51,5 @@ Q = \\{1,2,3,4,5,6\\} \cap \\{x \in \mathbb{R}; x > 6\\} = \varnothing.
 $$
 
 (*) Dois conjuntos são disjuntos quando não possuem elementos em comum.
+
+Busque mais [aqui](https://github.com/rlaunemacedo/artigos).
