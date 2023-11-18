@@ -24,6 +24,7 @@ $$
 Imformalmente, $D$ está definido como o **conjunto** em que cada um dos seus **elementos cumpre** a seguinte **propriedade**: *é uma possibilidade de leitura em um lançamento de um dado regular*.
 
 Seja
+
 $$
 P = \\{ x; x \in D, x \text{ é par} \\}.
 $$
