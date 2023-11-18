@@ -29,20 +29,23 @@ $$
 $$
 
 é verdadeira.
-3. Vamos verificar se o mesmo se dá para $n = k + 1$.
+
+3. E vamos verificar se o mesmo se dá para $n = k + 1$.
 
 Neste caso, vamos desenvolver o segundo membro de
 
 $$
-(1 + 2 + 3 + ... + k) + (k + 1) = \frac{(k + 1)[(k + 1) + 1}{2}.
+(1 + 2 + 3 + ... + k) + (k + 1) = \frac{(k + 1)[(k + 1) + 1]}{2}.
 $$
 
-
 Temos que
-n(n+1)2+(k+1)=k(k+1)2+2(k+1)2
+
+$$
+k(k+1)2+(k+1)=k(k+1)2+2(k+1)2
 2n(n+1)​+(k+1)=2k(k+1)​+22(k+1)​
 n(n+1)2+(k+1)=(k+1)(k+2)2,
 2n(n+1)​+(k+1)=2(k+1)(k+2)​,
+$$
 
 ou como queríamos
 (1+2+3+...+k)+(k+1)=(k+1)[(k+1)+1]2.
