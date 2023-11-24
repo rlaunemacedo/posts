@@ -214,6 +214,20 @@ Primeiro, troque para a branch dev:
 git checkout dev
 ``
 
+Antes do merge, atualize sua branch dev local:
 
+git fetch
+
+Por fim, faça o merge da sua branch do recurso em dev:
+
+git merge <nome-da-branch-com-o-recurso>
+
+Dica: certifique-se de que sua branch dev tem a versão mais recente antes de fazer o merge de suas branches de recurso. Do contrário, você pode ter que lidar com conflitos e outros problemas indesejados.
+
+Esses são os meus 10 comandos mais usados do Git, com os quais eu lido diariamente ao programar. Existe muito mais para se aprender sobre o Git e eu tentarei explicar o resto em artigos separados.
+
+Se quiser aprender mais sobre desenvolvimento para a web, não se esqueça de seguir o autor no Youtube!
+
+Obrigado pela leitura!
 
 
