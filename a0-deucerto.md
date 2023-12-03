@@ -18,3 +18,9 @@
 5. Intalar Jekyll e Bundler
    gem install jekyll bundler
    rbenv rehash
+
+Iniciando um Projeto Jekyll
+1. Crie um repositóri público no GitHub e, em seu computador, crie um diretório de trabalho, meu caso site, faça uma clonagem do repositório:
+``shell
+$ git clone https://github.com/<seu-usuario>/<repositorio>.git
+``
