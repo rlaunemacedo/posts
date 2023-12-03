@@ -1,4 +1,10 @@
-## Conjunto Vazio
+---
+layout: post
+title:  "O Conjunto Vazio"
+date:   2023-05-12 12:24:53 -0300
+categories: matematica conjuntos vazio
+---
+
 **Por R N Launé Macêdo**
 
 #conjuntovazio

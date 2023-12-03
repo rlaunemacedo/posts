@@ -1,4 +1,10 @@
-## Axiomas de Peano
+---
+layout: post
+title:  "Axiomas de Peano"
+date:   2023-05-10 12:24:53 -0300
+categories: matematica peano axioma
+---
+
 **Por R N Launé Macêdo**
 
 #axiomasdepeano
