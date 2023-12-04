@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR"><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/posts/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/posts/" rel="alternate" type="text/html" hreflang="pt-BR" /><updated>2023-12-04T10:11:12-03:00</updated><id>http://localhost:4000/posts/feed.xml</id><title type="html">Meus posts</title><subtitle>rlaunemacedo. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Deu Certo</title><link href="http://localhost:4000/posts/blog/2023/12/03/deu-certo/" rel="alternate" type="text/html" title="Deu Certo" /><published>2023-12-03T12:30:53-03:00</published><updated>2023-12-03T12:30:53-03:00</updated><id>http://localhost:4000/posts/blog/2023/12/03/deu-certo</id><content type="html" xml:base="http://localhost:4000/posts/blog/2023/12/03/deu-certo/">&lt;h2 id=&quot;intalação-jekyll&quot;&gt;Intalação Jekyll&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR"><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/posts/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/posts/" rel="alternate" type="text/html" hreflang="pt-BR" /><updated>2023-12-04T11:05:45-03:00</updated><id>http://localhost:4000/posts/feed.xml</id><title type="html">Meus posts</title><subtitle>rlaunemacedo. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Deu Certo</title><link href="http://localhost:4000/posts/blog/2023/12/03/deu-certo/" rel="alternate" type="text/html" title="Deu Certo" /><published>2023-12-03T12:30:53-03:00</published><updated>2023-12-03T12:30:53-03:00</updated><id>http://localhost:4000/posts/blog/2023/12/03/deu-certo</id><content type="html" xml:base="http://localhost:4000/posts/blog/2023/12/03/deu-certo/">&lt;h2 id=&quot;salvar-usuário-e-senha-do-git&quot;&gt;Salvar usuário e senha do git&lt;/h2&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SALVA USUARIO E SENHA POR 8 HORAS &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;8 x 60 x 60 &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; 28.800&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;:
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; credential.helper &lt;span class=&quot;s1&quot;&gt;&apos;cache --timeout=28800&apos;&lt;/span&gt;
+
+SALVA USUARIO E SENHA PERMANENTE:
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; credential.helper cache
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;intalação-jekyll&quot;&gt;Intalação Jekyll&lt;/h2&gt;
 &lt;ol&gt;
   &lt;li&gt;Desistalar o Ruby
 sudo apt-get remove ruby –auto-remove&lt;/li&gt;
@@ -21,13 +29,86 @@ gem install jekyll bundler
 rbenv rehash&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Iniciando um Projeto Jekyll&lt;/p&gt;
+&lt;h2 id=&quot;iniciando-um-projeto-jekyll&quot;&gt;Iniciando um Projeto Jekyll&lt;/h2&gt;
 &lt;ol&gt;
-  &lt;li&gt;Crie um repositóri público no GitHub e, em seu computador, crie um diretório de trabalho, meu caso site, faça uma clonagem do repositório:
+  &lt;li&gt;Crie um repositóri público no GitHub e, em seu computador, crie um &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;diretório&lt;/code&gt; de trabalho , meu caso crieie o diretório &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/sites&lt;/code&gt;, faça uma clonagem do repositório:
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;shell
+$ mkdir ~/sites
+$ cd ~/sites
 $ git clone https://github.com/&amp;lt;seu-usuario&amp;gt;/&amp;lt;repositorio&amp;gt;.git
+$ cd &amp;lt;repositorio&amp;gt;
 &lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="jekyll" /><category term="tutorial" /><summary type="html">Intalação Jekyll Desistalar o Ruby sudo apt-get remove ruby –auto-remove Intalar rbenv sudo apt install rbenv Instalar Git cd $HOME sudo apt-get update sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libxml2-dev libxslt1-dev libcurl4-openssl-dev libffi-dev git clone https://github.com/rbenv/rbenv.git ~/.rbenv echo ‘export PATH=”$HOME/.rbenv/bin:$PATH”’ » ~/.bashrc echo ‘eval “$(rbenv init -)”’ » ~/.bashrc exec $SHELL Instalar Ruby sudo apt install rbenv rbenv install 3.2.0 rbenv global 3.2.0 Intalar Jekyll e Bundler gem install jekyll bundler rbenv rehash</summary></entry><entry><title type="html">Raiz de dois não é racional</title><link href="http://localhost:4000/posts/blog/2023/05/16/raizq-dois-nao-eh-racional/" rel="alternate" type="text/html" title="Raiz de dois não é racional" /><published>2023-05-16T12:24:53-03:00</published><updated>2023-05-16T12:24:53-03:00</updated><id>http://localhost:4000/posts/blog/2023/05/16/raizq-dois-nao-eh-racional</id><content type="html" xml:base="http://localhost:4000/posts/blog/2023/05/16/raizq-dois-nao-eh-racional/">&lt;p&gt;&lt;strong&gt;Por R N Launé Macêdo&lt;/strong&gt;&lt;/p&gt;
+  &lt;li&gt;Crie um novo projeto Jekyll
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;shell
+$ jekyll new . --force
+&lt;/code&gt;
+Note o &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.&lt;/code&gt; representa o caminho do repositório, além disso utilizamos a opção &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--force&lt;/code&gt; 
+para forçar a criação do projeto.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;O Jekyll cria o projeto e dentro do diretório diversos arquivos de configuração.
+Precisaremos editar inicialmente dois deles. Para tanto utilize um editor de textos puro
+seu agrado e habilidade. Eu por exemplo uso o &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vscode&lt;/code&gt;. Primeiro, no arquivo:&lt;/p&gt;
+
+&lt;p&gt;Arquivo: &lt;strong&gt;Gemfile&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem &quot;jekyll&quot;, &quot;~&amp;gt; 4.3.2&quot;
+# This is the default theme for new Jekyll sites. You may change this to anything you like.
+gem &quot;minima&quot;, &quot;~&amp;gt; 2.5&quot;
+# If you want to use GitHub Pages, remove the &quot;gem &quot;jekyll&quot;&quot; above and
+# uncomment the line below. To upgrade, run `bundle update github-pages`.
+# gem &quot;github-pages&quot;, group: :jekyll_plugins
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Neste fragmento do arquivo comente a primeira linha e descomente a última. Deverá ficar assim:&lt;/p&gt;
+
+&lt;p&gt;Arquivo: &lt;strong&gt;Gemfile&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# gem &quot;jekyll&quot;, &quot;~&amp;gt; 4.3.2&quot;
+# This is the default theme for new Jekyll sites. You may change this to anything you like.
+gem &quot;minima&quot;, &quot;~&amp;gt; 2.5&quot;
+# If you want to use GitHub Pages, remove the &quot;gem &quot;jekyll&quot;&quot; above and
+# uncomment the line below. To upgrade, run `bundle update github-pages`.
+gem &quot;github-pages&quot;, group: :jekyll_plugins
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Apesar da recomendação &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;# uncomment the line below. To upgrade, run &apos;bundle update github-pages&apos;&lt;/code&gt;, vamos rodar o comando:&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;bundle update
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;bundle &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Antes de testarmos o ambiente, vamos adicionar ao &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle&lt;/code&gt; o &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;webrick&lt;/code&gt;, com o comando&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;bundle add webrick
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Agora vamos testar:&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;bundler &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll serve &lt;span class=&quot;nt&quot;&gt;--livereload&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Se tudo ocorrer conforme esperado, deveremos obter uma saída parecida com esta:&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;      Generating... 
+       Jekyll Feed: Generating feed &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;posts
+                    &lt;span class=&quot;k&quot;&gt;done in &lt;/span&gt;10.901 seconds.
+ Auto-regeneration: enabled &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;/home/laune/estudos/site/jekyll-doc-theme&apos;&lt;/span&gt;
+    Server address: http://127.0.0.1:4000/posts/
+  Server running... press ctrl-c to stop.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Neste ponto, você deve abrir um navegador de sua preferência e digitar o conteúdo da linha
+Server address: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;http://127.0.0.1:4000/&amp;lt;repositório&amp;gt;/&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Tudo certo?&lt;/p&gt;
+
+&lt;p&gt;Agora vamos alterar algumas configurações no arquivo:&lt;/p&gt;
+
+&lt;p&gt;Arquivo: &lt;strong&gt;_config.yml&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;title: &amp;lt;Dê um título ao seu blog &amp;gt;
+email: your-email@example.com
+description: &amp;gt;- # this means to ignore newlines until &quot;baseurl:&quot;
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: &quot;&quot; # the subpath of your site, e.g. /blog
+url: &quot;https://rlaunemacedo.github.io&quot; # the base hostname &amp;amp; protocol for your site, e.g. http://example.com
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Exemplo:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;title: Meu blog
+email: your-email@example.com
+baseurl: &quot;/blog&quot;
+url: &quot;https://&amp;lt;seu-usuario&amp;gt;.github.io&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="jekyll" /><category term="tutorial" /><summary type="html">Salvar usuário e senha do git ```shell SALVA USUARIO E SENHA POR 8 HORAS (8 x 60 x 60 = 28.800): $ git config –global credential.helper ‘cache –timeout=28800’</summary></entry><entry><title type="html">Raiz de dois não é racional</title><link href="http://localhost:4000/posts/blog/2023/05/16/raizq-dois-nao-eh-racional/" rel="alternate" type="text/html" title="Raiz de dois não é racional" /><published>2023-05-16T12:24:53-03:00</published><updated>2023-05-16T12:24:53-03:00</updated><id>http://localhost:4000/posts/blog/2023/05/16/raizq-dois-nao-eh-racional</id><content type="html" xml:base="http://localhost:4000/posts/blog/2023/05/16/raizq-dois-nao-eh-racional/">&lt;p&gt;&lt;strong&gt;Por R N Launé Macêdo&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;#raizquadradadedois&lt;/p&gt;
 
