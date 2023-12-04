@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR"><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/posts/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/posts/" rel="alternate" type="text/html" hreflang="pt-BR" /><updated>2023-12-04T17:11:28-03:00</updated><id>http://localhost:4000/posts/feed.xml</id><title type="html">Meus posts</title><subtitle>rlaunemacedo. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Deu Certo</title><link href="http://localhost:4000/posts/blog/2023/12/03/deu-certo/" rel="alternate" type="text/html" title="Deu Certo" /><published>2023-12-03T12:30:53-03:00</published><updated>2023-12-03T12:30:53-03:00</updated><id>http://localhost:4000/posts/blog/2023/12/03/deu-certo</id><content type="html" xml:base="http://localhost:4000/posts/blog/2023/12/03/deu-certo/">&lt;h3 id=&quot;salvar-usuário-e-senha-do-git-&quot;&gt;Salvar usuário e senha do git &lt;i class=&quot;fa fa-github&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR"><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/posts/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/posts/" rel="alternate" type="text/html" hreflang="pt-BR" /><updated>2023-12-04T19:33:21-03:00</updated><id>http://localhost:4000/posts/feed.xml</id><title type="html">Meus posts</title><subtitle>rlaunemacedo. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Deu Certo</title><link href="http://localhost:4000/posts/blog/2023/12/03/deu-certo/" rel="alternate" type="text/html" title="Deu Certo" /><published>2023-12-03T12:30:53-03:00</published><updated>2023-12-03T12:30:53-03:00</updated><id>http://localhost:4000/posts/blog/2023/12/03/deu-certo</id><content type="html" xml:base="http://localhost:4000/posts/blog/2023/12/03/deu-certo/">&lt;h3 id=&quot;salvar-usuário-e-senha-do-git-&quot;&gt;Salvar usuário e senha do git &lt;i class=&quot;fa fa-github&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/h3&gt;
 &lt;p&gt;Salvando o usuário e sua senhoa por 8h (8 x 60 x 60 = 28.800):&lt;/p&gt;
 &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; credential.helper &lt;span class=&quot;s1&quot;&gt;&apos;cache --timeout=28800&apos;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -38,8 +38,8 @@
 
 &lt;h3 id=&quot;iniciando-um-projeto-jekyll-&quot;&gt;Iniciando um Projeto Jekyll &lt;i class=&quot;fa fa-rocket&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/h3&gt;
 
-&lt;p&gt;Para facilitar, vamos imaginar que existe uma conta &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rpatricio&lt;/code&gt; no &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GitHub&lt;/code&gt; 
-na qual foi criado um repositório chamado &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;blog&lt;/code&gt; para hospedar um site.&lt;/p&gt;
+&lt;p&gt;A título de exercício, vamos imaginar que já exista uma conta chamada &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rpatricio&lt;/code&gt; no &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GitHub&lt;/code&gt; 
+na qual foi criado um repositório de nome &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;blog&lt;/code&gt; para hospedar um site.&lt;/p&gt;
 
 &lt;h4 id=&quot;o-ambiente-no-computador&quot;&gt;O ambiente no computador&lt;/h4&gt;
 &lt;p&gt;Vamos criar um diretório chamado &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sites&lt;/code&gt; armazenado em &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$HOME&lt;/code&gt;:&lt;/p&gt;
@@ -64,9 +64,9 @@ na qual foi criado um repositório chamado &lt;code class=&quot;language-plainte
 para forçar a criação do projeto.&lt;/p&gt;
 
 &lt;h4 id=&quot;configurando-o-projeto&quot;&gt;Configurando o projeto&lt;/h4&gt;
-&lt;p&gt;O Jekyll cria o projeto e dentro do diretório alguns arquivos de configuração.
-Precisaremos editar inicialmente dois deles. Para tanto utilize um editor de textos puro
-seu agrado e habilidade. Eu por exemplo uso o &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vscode&lt;/code&gt;. Primeiro, no arquivo:&lt;/p&gt;
+&lt;p&gt;O Jekyll cria o projeto e, dentro do diretório, alguns arquivos de configuração.
+Precisaremos editar inicialmente dois deles. Para tanto, utilize um editor de textos puro
+de seu agrado e habilidade. Eu por exemplo uso o &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vscode&lt;/code&gt;. Primeiro, vamos editar o arquivo:&lt;/p&gt;
 
 &lt;p&gt;Arquivo: &lt;strong&gt;Gemfile&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem &quot;jekyll&quot;, &quot;~&amp;gt; 4.3.2&quot;
@@ -76,7 +76,7 @@ gem &quot;minima&quot;, &quot;~&amp;gt; 2.5&quot;
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem &quot;github-pages&quot;, group: :jekyll_plugins
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Neste fragmento do arquivo comente a primeira linha e descomente a última. Deverá ficar assim:&lt;/p&gt;
+&lt;p&gt;Neste fragmento de códigos do arquivo, &lt;strong&gt;comente&lt;/strong&gt; com &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#&lt;/code&gt; a primeira linha e &lt;strong&gt;descomente&lt;/strong&gt; a última. Deverá ficar assim:&lt;/p&gt;
 
 &lt;p&gt;Arquivo: &lt;strong&gt;Gemfile&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# gem &quot;jekyll&quot;, &quot;~&amp;gt; 4.3.2&quot;
@@ -101,11 +101,11 @@ gem &quot;github-pages&quot;, group: :jekyll_plugins
        Jekyll Feed: Generating feed &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;posts
                     &lt;span class=&quot;k&quot;&gt;done in &lt;/span&gt;10.901 seconds.
  Auto-regeneration: enabled &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;/home/laune/estudos/site/jekyll-doc-theme&apos;&lt;/span&gt;
-    Server address: http://127.0.0.1:4000/posts/
+    Server address: http://127.0.0.1:4000/blog/
   Server running... press ctrl-c to stop.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;Neste ponto, você deve abrir um navegador de sua preferência e digitar o conteúdo da linha
-Server address: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;http://127.0.0.1:4000/&amp;lt;repositório&amp;gt;/&lt;/code&gt;.&lt;/p&gt;
+Server address: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;http://127.0.0.1:4000/blog/&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Tudo certo?&lt;/p&gt;
 
@@ -119,7 +119,7 @@ description: &amp;gt;- # this means to ignore newlines until &quot;baseurl:&quot
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: &quot;&quot; # the subpath of your site, e.g. /blog
-url: &quot;https://rlaunemacedo.github.io&quot; # the base hostname &amp;amp; protocol for your site, e.g. http://example.com
+url: &quot;https://&amp;lt;user-github&amp;gt;.github.io&quot; # the base hostname &amp;amp; protocol for your site, e.g. http://example.com
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;Exemplo:&lt;/p&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;title: Meu blog

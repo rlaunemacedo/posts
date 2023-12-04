@@ -1,5 +1,5 @@
 ## Comandos Git
-### 1. Git clone
+### 1. git clone
 
 Git clone é uma comando para baixar o código-fonte existente de um repositório remoto 
 (como, por exemplo, o Github). Em outras palavras, git clone, basicamente, 
@@ -17,7 +17,7 @@ copiar o URL da caixa logo abaixo e colá-lo após o comando git clone que mostr
 
 Isso fará uma cópia do projeto no seu espaço de trabalho local para que você possa começar a trabalhar nessa cópia.
 
-### 2. Git branch
+### 2. git branch
 
 Branches (algo como ramificações, em português) são altamente importantes no mundo do git. 
 Usando as branches, vários desenvolvedores conseguem trabalhar em paralelo no mesmo projeto simultaneamente. 
@@ -48,7 +48,7 @@ Como excluir uma branch:
 git branch -d <nome-da-branch>
 ``
 
-### 3. Git checkout
+### 3. git checkout
 
 Esse também é um dos comandos do Git mais usados. Para trabalhar em uma branch, 
 primeiro, é preciso "entrar" nela. Usamos git checkout, na maioria dos casos, 
@@ -73,7 +73,7 @@ git checkout -b <nome-da-branch>
 
 Esse comando cria a branch em seu espaço de trabalho local (a flag -b representa a branch) e faz o checkout na nova branch logo após sua criação.
 
-### 4. Git status
+### 4. git status
 
 O comando git status nos dá todas as informações necessárias sobre a branch atual.
 
@@ -88,7 +88,7 @@ Obtemos as seguintes informações:
 . Se os arquivos estão em fase de stage, fora dessa fase ou se não estão sendo rastreados
 . Se arquivos foram criados, modificados ou excluídos
 
-### 5. Git add
+### 5. git add
 
 Ao criarmos, modificarmos ou excluirmos um arquivo, essas alterações acontecerão em nosso 
 espaço de trabalho local e não serão incluídas no próximo commit (a menos que alteremos as configurações).
@@ -116,7 +116,7 @@ Para incluí-los, precisamos usar git add:
 Importante: o comando git add não altera o repositório. 
 As alterações não são salvas até que se use o git commit.
 
-### 6. Git commit
+### 6. git commit
 
 Talvez esse seja o comando mais usado do Git. 
 Quando chegamos a determinado ponto em desenvolvimento, 
@@ -134,7 +134,7 @@ git commit -m "mensagem do commit"
 
 Importante: git commit salva suas alterações no espaço de trabalho local.
 
-### 7. Git push
+### 7. git push
 
 Após fazer o commit de suas alterações, a próxima coisa a fazer é enviar 
 suas alterações ao servidor remoto. Git push faz o upload dos seus commits no repositório remoto.
@@ -157,7 +157,7 @@ git push -u origin <nome-da-branch>
 
 Importante: git push somente faz o upload das alterações que já estão em um commit.
 
-### 8. Git pull
+### 8. git pull
 
 O comando git pull é usado para obter as atualizações de um repositório remoto. 
 Esse comando é uma combinação de git fetch e git merge, o que significa que, 
@@ -195,7 +195,7 @@ Outra medida de segurança está no fato de que tudo acontece em nosso sistema l
 a menos que façamos o push de tudo para o repositório remoto. 
 É por isso que o uso de git revert é mais seguro e é a forma preferida de desfazer nossos commits.
 
-### 10. Git merge
+### 10. git merge
 
 Quando você concluir o desenvolvimento em sua branch e quando tudo funcionar bem, 
 a etapa final é fazer o merge (mesclar ou unir, em português) da branch com a branch pai 
