@@ -1,16 +1,226 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/posts/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/posts/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2023-12-04T01:49:48+01:00</updated><id>http://localhost:4000/posts/feed.xml</id><title type="html">Meus posts</title><subtitle>Seja bem vindo à nossa sala de Estudos. Aqui pretendemos provocar alguma  discussão sobre temas relevantes; sobre as boas práticas para facilitadores de aprendizados; sobre formas mais amigáveis de tratar assuntos aparentemente complexos ou até mesmo, quem sabe, descomplicar o complexo a partir da boa discussão. 
-</subtitle><entry><title type="html">Jekyll Doc Theme is published!</title><link href="http://localhost:4000/posts/blog/2017/05/03/jekyll-doc-theme/" rel="alternate" type="text/html" title="Jekyll Doc Theme is published!" /><published>2017-05-03T00:00:00+02:00</published><updated>2017-05-03T00:00:00+02:00</updated><id>http://localhost:4000/posts/blog/2017/05/03/jekyll-doc-theme</id><content type="html" xml:base="http://localhost:4000/posts/blog/2017/05/03/jekyll-doc-theme/">&lt;p&gt;A new custom Jekyll theme for documentation and blogging is out. It is ideal for Open Source Software projects to publish under &lt;a href=&quot;https://pages.github.com&quot;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR"><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/posts/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/posts/" rel="alternate" type="text/html" hreflang="pt-BR" /><updated>2023-12-04T09:26:43-03:00</updated><id>http://localhost:4000/posts/feed.xml</id><title type="html">Meus posts</title><subtitle>rlaunemacedo. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Deu Certo</title><link href="http://localhost:4000/posts/blog/2023/12/03/deu-certo/" rel="alternate" type="text/html" title="Deu Certo" /><published>2023-12-03T12:30:53-03:00</published><updated>2023-12-03T12:30:53-03:00</updated><id>http://localhost:4000/posts/blog/2023/12/03/deu-certo</id><content type="html" xml:base="http://localhost:4000/posts/blog/2023/12/03/deu-certo/">&lt;h2 id=&quot;intalação-jekyll&quot;&gt;Intalação Jekyll&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Desistalar o Ruby
+sudo apt-get remove ruby –auto-remove&lt;/li&gt;
+  &lt;li&gt;Intalar rbenv
+sudo apt install rbenv&lt;/li&gt;
+  &lt;li&gt;Instalar Git
+cd $HOME
+sudo apt-get update
+sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libxml2-dev libxslt1-dev libcurl4-openssl-dev libffi-dev
+git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+echo ‘export PATH=”$HOME/.rbenv/bin:$PATH”’ » ~/.bashrc
+echo ‘eval “$(rbenv init -)”’ » ~/.bashrc
+exec $SHELL&lt;/li&gt;
+  &lt;li&gt;Instalar Ruby
+sudo apt install rbenv
+rbenv install 3.2.0
+rbenv global 3.2.0&lt;/li&gt;
+  &lt;li&gt;Intalar Jekyll e Bundler
+gem install jekyll bundler
+rbenv rehash&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;Your contribution is welcome!&lt;/p&gt;</content><author><name>aksakalli</name></author><summary type="html">A new custom Jekyll theme for documentation and blogging is out. It is ideal for Open Source Software projects to publish under GitHub Pages.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/posts/blog/2017/02/01/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-02-01T10:41:09+01:00</published><updated>2017-02-01T10:41:09+01:00</updated><id>http://localhost:4000/posts/blog/2017/02/01/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/posts/blog/2017/02/01/welcome-to-jekyll/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;p&gt;Iniciando um Projeto Jekyll&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Crie um repositóri público no GitHub e, em seu computador, crie um diretório de trabalho, meu caso site, faça uma clonagem do repositório:
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;shell
+$ git clone https://github.com/&amp;lt;seu-usuario&amp;gt;/&amp;lt;repositorio&amp;gt;.git
+&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="jekyll" /><category term="tutorial" /><summary type="html">Intalação Jekyll Desistalar o Ruby sudo apt-get remove ruby –auto-remove Intalar rbenv sudo apt install rbenv Instalar Git cd $HOME sudo apt-get update sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libxml2-dev libxslt1-dev libcurl4-openssl-dev libffi-dev git clone https://github.com/rbenv/rbenv.git ~/.rbenv echo ‘export PATH=”$HOME/.rbenv/bin:$PATH”’ » ~/.bashrc echo ‘eval “$(rbenv init -)”’ » ~/.bashrc exec $SHELL Instalar Ruby sudo apt install rbenv rbenv install 3.2.0 rbenv global 3.2.0 Intalar Jekyll e Bundler gem install jekyll bundler rbenv rehash</summary></entry><entry><title type="html">Raiz de dois não é racional</title><link href="http://localhost:4000/posts/blog/2023/05/16/raizq-dois-nao-eh-racional/" rel="alternate" type="text/html" title="Raiz de dois não é racional" /><published>2023-05-16T12:24:53-03:00</published><updated>2023-05-16T12:24:53-03:00</updated><id>http://localhost:4000/posts/blog/2023/05/16/raizq-dois-nao-eh-racional</id><content type="html" xml:base="http://localhost:4000/posts/blog/2023/05/16/raizq-dois-nao-eh-racional/">&lt;p&gt;&lt;strong&gt;Por R N Launé Macêdo&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;#raizquadradadedois&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;h4 id=&quot;sqrt2-notin-mathbbq&quot;&gt;\(\sqrt{2} \notin \mathbb{Q}\)&lt;/h4&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;Neste artigo traremos uma demonstração simples de que \(\sqrt{2}\) não é um número racional. Para tanto relembraremos alguns outros resultados também simple sobre os inteiros.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;</content><author><name>Jekyll</name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;Primeiro vamos lembrar que, se \(m \in \mathbb{Z}\) é par e \(n \in \mathbb{Z}\) é impar, então podemos escrevê-los na forma&lt;/p&gt;
+
+\[m = 2k_1 \text{  e  }n = 2k_2 + 1,\]
+
+&lt;p&gt;onde \(k_1,k_2 \in \mathbb{Z}\).&lt;/p&gt;
+
+&lt;p&gt;Um resultado relevante para o nosso objetivo final é que:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lema:&lt;/strong&gt; Dado \(p \in \mathbb{Z}\), se \(p\) é par, então \(p^2\) é par.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prova:&lt;/strong&gt; Suponhamos por absurdo que \(p^2\) é par e \(p\) é ímpar. Então, se \(p\) é ímpar, podemos escrevê-lo como&lt;/p&gt;
+
+\[p = 2k + 1, k \in \mathbb{Z}.\]
+
+&lt;p&gt;Sendo assim&lt;/p&gt;
+
+\[p^2 = (2k+1)(2k+1)=(2k+1)^2 = (2k)^2 + 2(2k).1 + 1 = 4k^2 + 4k + 1.\]
+
+&lt;p&gt;Mas&lt;/p&gt;
+
+\[4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1\]
+
+&lt;p&gt;Fazendo $k_1 = 2k^2 + 2k$, teremos&lt;/p&gt;
+
+\[p^2 = 2k_1 + 1,\]
+
+&lt;p&gt;que é impar. &lt;em&gt;Absurdo!&lt;/em&gt; por hipótese, \(p^2\) é par.&lt;/p&gt;
+
+&lt;p&gt;Agora veremos a demonstração de que&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Proposição:&lt;/strong&gt; \(\sqrt{2}\) não é um número racional.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prova:&lt;/strong&gt; Vamos supor por absurdo que \(\sqrt{2}\) é um número racional.&lt;/p&gt;
+
+&lt;p&gt;Sejam \(p, q \in \mathbb{Z}\) tais que \(mdc(p, q) = 1\) de forma que&lt;/p&gt;
+
+\[\sqrt{2} = \frac{p}{q}.\]
+
+&lt;p&gt;Com estas considerções, o racional $p/q$ está escrito na sua forma mais simples. Agora façamos&lt;/p&gt;
+
+\[(\sqrt{2})^2 = (\frac{p}{q})^2 \implies
+2 = \frac{p^2}{q^2} \implies
+p^2 = 2q^2.\]
+
+&lt;p&gt;\(p^2 = 2q^2\), implica, pelo &lt;em&gt;Lema&lt;/em&gt;, que \(p\) é par e poderá ser escrito como \(p = 2k, k \in \mathbb{Z}\).&lt;/p&gt;
+
+&lt;p&gt;Então teríamos&lt;/p&gt;
+
+\[(2k)^2 = 2q^2,\\
+4k^2 = 2q^2,\\
+2k^2 = q^2.\]
+
+&lt;p&gt;E, pelo &lt;em&gt;Lema&lt;/em&gt; acima, \(q\) também é par. Absurdo, pois \(mdc(p,q) = 1\).&lt;/p&gt;
+
+&lt;p&gt;Busque mais &lt;a href=&quot;https://github.com/rlaunemacedo/artigos&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="matematica" /><category term="racionais" /><category term="irracionais" /><category term="conjunto" /><summary type="html">Por R N Launé Macêdo</summary></entry><entry><title type="html">Princípio da Indução</title><link href="http://localhost:4000/posts/blog/2023/05/14/principio-da-inducao/" rel="alternate" type="text/html" title="Princípio da Indução" /><published>2023-05-14T12:24:53-03:00</published><updated>2023-05-14T12:24:53-03:00</updated><id>http://localhost:4000/posts/blog/2023/05/14/principio-da-inducao</id><content type="html" xml:base="http://localhost:4000/posts/blog/2023/05/14/principio-da-inducao/">&lt;p&gt;&lt;strong&gt;Por R N Launé Macêdo&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;#principiodainducao&lt;/p&gt;
+
+&lt;p&gt;O princípio da indução é uma ferramenta muito útil para demonstrar propriedades inerentes 
+principalmente aos números naturais.&lt;/p&gt;
+
+&lt;p&gt;Neste artigo iremos enunciar o princípio da indução de duas formas e demonstrar que elas são equivalentes. 
+Antes porém iremos ilustar a simplicidade da técnica para demonstrar que a soma dos $n$ primeiros 
+números naturais é obtida pela fórmula:&lt;/p&gt;
+
+\[\tag{Eq.1}
+1+2+3+...+n=\frac{n(n+1)}{2}.\]
+
+&lt;p&gt;A técnica consiste em provarmos primeiramente que o resultado é válido para $n = 1$, 
+assumirmos que vale para um certo \(n = k \in N\) e, ao provarmos que vale para o seu sucessor 
+\(n = k + 1\), concluir quevale para todo \(n \in N\).&lt;/p&gt;
+
+&lt;p&gt;i. De fato, para \(n = 1\), a igualdade (Eq.1) é verdadeira. Veja,&lt;/p&gt;
+
+\[1 = \frac{1(1+1)}{2}.\]
+
+&lt;p&gt;ii. Agora vamos supor que para um dado \(n = k \in N\),&lt;/p&gt;
+
+\[1 + 2 + 3 + ... + k = \frac{k(k+1)}{2}\]
+
+&lt;p&gt;é verdadeira.&lt;/p&gt;
+
+&lt;p&gt;iii. E vamos verificar se o mesmo se dá para \(n = k + 1\). Queremos provar que:&lt;/p&gt;
+
+\[1 + 2 + 3 + ... + k + (k+1) = \frac{(k + 1)[(k + 1) + 1]}{2}.\]
+
+&lt;p&gt;Note que&lt;/p&gt;
+
+\[\tag{Eq.2}
+(1 + 2 + 3 + ... + k) + (k + 1) = \frac{k(k + 1)}{2} + (k + 1).\]
+
+&lt;p&gt;Ao desenvolver o segundo membro de (Eq.2), temos que&lt;/p&gt;
+
+\[\frac{k(k + 1)}{2} + (k + 1) = \frac{k(k + 1)}{2} + \frac{2(k + 1)}{2} \therefore\]
+
+\[\frac{k(k + 1) + 2(k + 1)}{2} = \frac{(k + 1)(k + 2)}{2} \therefore\]
+
+\[\frac{(k + 1)(k + 2)}{2} = \frac{(k + 1)[(k + 1) + 1]}{2}\]
+
+&lt;p&gt;como queríamos provar.&lt;/p&gt;
+
+&lt;p&gt;Assista ao vídeo: &lt;a href=&quot;https://www.youtube.com/watch?v=U3M25j9e4cw&quot;&gt;Axiomas de Peano&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Busque mais &lt;a href=&quot;https://github.com/rlaunemacedo/artigos&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="matematica" /><category term="indução" /><category term="peano" /><category term="axioma" /><summary type="html">Por R N Launé Macêdo</summary></entry><entry><title type="html">O Conjunto Vazio</title><link href="http://localhost:4000/posts/blog/2023/05/12/conjunto-vazio/" rel="alternate" type="text/html" title="O Conjunto Vazio" /><published>2023-05-12T00:00:00-03:00</published><updated>2023-05-12T00:00:00-03:00</updated><id>http://localhost:4000/posts/blog/2023/05/12/conjunto-vazio</id><content type="html" xml:base="http://localhost:4000/posts/blog/2023/05/12/conjunto-vazio/">&lt;p&gt;&lt;strong&gt;Por R N Launé Macêdo&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;#conjuntovazio&lt;/p&gt;
+
+&lt;h3 id=&quot;o-que-vem-a-ser-um-conjunto-vazio&quot;&gt;O que vem a ser um conjunto vazio?&lt;/h3&gt;
+
+&lt;p&gt;Se definirmos simplesmente que &lt;strong&gt;conjunto é uma reunião de elementos&lt;/strong&gt; ficaria um pouco contraditório dizer que um conjunto vazio é aquele que &lt;strong&gt;não tem elementos&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Então vamos adotar uma outra abordagem, vamos definir cojunto a partir de uma propriedade que seus elementos possam (ou não) cumprir.&lt;/p&gt;
+
+&lt;p&gt;Vejamos a seguinte situação:&lt;/p&gt;
+
+&lt;p&gt;Ao lançarmos um dado regular, se levarmos em conta a quantidade de pontos na face superior, 
+a lista das possibilidades será: \(1, 2, 3, 4, 5,\) ou \(6\).&lt;/p&gt;
+
+&lt;p&gt;Seja&lt;/p&gt;
+
+\[D = \{ 1, 2, 3, 4, 5, 6 \}\]
+
+&lt;p&gt;Imformalmente, $D$ poderia ser definido como o &lt;strong&gt;conjunto&lt;/strong&gt; em que cada um dos seus &lt;strong&gt;elementos cumpre&lt;/strong&gt; a seguinte &lt;strong&gt;propriedade&lt;/strong&gt;: &lt;em&gt;é uma possibilidade de leitura em um lançamento de um dado regular&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Defina&lt;/p&gt;
+
+\[P = \{ x; x \in D, x \text{ é par} \}.\]
+
+&lt;p&gt;Faremos a seguinte leitura: “ $P$ é o conjunto dos elementos $x$, tais que, cada $x$ é um elemento de $D$ e é par “.
+E podemos listar&lt;/p&gt;
+
+\[P = \{ 2,4,6 \}.\]
+
+&lt;p&gt;Agora, seja&lt;/p&gt;
+
+\[Q = \{ x; x \in D, x &amp;gt; 6 \},\]
+
+&lt;p&gt;Ou seja, $Q$ é o conjuntos dos elementos de $D$ que são maiores do que $6$, neste caso acabamos de definir um conjunmto vazio que abreviamos \(Q = \{  \}\) ou \(Q = \varnothing\).&lt;/p&gt;
+
+&lt;p&gt;Em particular, toda interseção de conjuntos &lt;strong&gt;disjuntos&lt;/strong&gt;* define o conjunto vazio. Basta observar neste exemplo que&lt;/p&gt;
+
+\[Q = \{1,2,3,4,5,6 \} \cap \{x \in \mathbb{R}; x &amp;gt; 6 \} = \varnothing.\]
+
+&lt;p&gt;(*) Dois conjuntos são disjuntos quando não possuem elementos em comum.&lt;/p&gt;
+
+&lt;p&gt;Busque mais &lt;a href=&quot;https://github.com/rlaunemacedo/artigos&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="Matemática" /><category term="Conjuntos" /><category term="Conjunto vazio" /><summary type="html">Por R N Launé Macêdo</summary></entry><entry><title type="html">Axiomas de Peano</title><link href="http://localhost:4000/posts/blog/2023/05/10/axiomas-de-peano/" rel="alternate" type="text/html" title="Axiomas de Peano" /><published>2023-05-10T12:24:53-03:00</published><updated>2023-05-10T12:24:53-03:00</updated><id>http://localhost:4000/posts/blog/2023/05/10/axiomas-de-peano</id><content type="html" xml:base="http://localhost:4000/posts/blog/2023/05/10/axiomas-de-peano/">&lt;p&gt;&lt;strong&gt;Por R N Launé Macêdo&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;#axiomasdepeano&lt;/p&gt;
+
+&lt;p&gt;A caracterização analítica do &lt;strong&gt;Conjunto dos Números Naturais&lt;/strong&gt; foi postulada por um 
+matemático italiano chamado de Giusepe Peano em torno de 1900.&lt;/p&gt;
+
+&lt;p&gt;Basicamente ele estabeleceu que o conjunto dos números Naturais (\(\mathbb{N}\)) é caracterizado por:&lt;/p&gt;
+
+&lt;p&gt;. Todo número natural \(n\) tem um sucessor \(s(n)\);&lt;/p&gt;
+
+&lt;p&gt;. Dois números com o mesmo sucessor são iguais;&lt;/p&gt;
+
+&lt;p&gt;. Existe um número \(n_0\)​ que não é sucessor de outro qualquer;&lt;/p&gt;
+
+&lt;p&gt;. Se um dado subconjunto \(X\), dos naturais, possui \(n_0\)​ e, para cada um dos seus elementos \(n\),&lt;/p&gt;
+
+&lt;p&gt;. o seu sucessor \(s(n)\) também estiver em \(X\), então \(X\) é o próprio \(\mathbb{N}\).&lt;/p&gt;
+
+&lt;p&gt;O segundo axioma afirma que a função sucessor \(s:N \to N\) é injetiva. 
+O terceiro axioma nos fala do número \(1\). O último axioma será estudado mais tarde 
+como sendo o &lt;strong&gt;Princípio da Indução&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;A notação mais formal apresenta apenas três axiomas, como segue.&lt;/p&gt;
+
+&lt;h3 id=&quot;os-axiomas-de-peanos&quot;&gt;Os Axiomas de Peanos&lt;/h3&gt;
+
+&lt;p&gt;Os conjunto dos números Naturais é caracterizado por:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Existe uma função injetiva \(s:N \to N\) e a imagem \(s(n)\) de cada número \(n \in \mathbb{N}\)  chama-se sucessor de \(n\);&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Existe um único \(1 \in \mathbb{N}\), tal que \(1 \neq s(n)\), para todo \(n \in \mathbb{N}\);&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Se \(X \subset \mathbb{N}\) é tal que \(1 \in X\) e \(n \in X\) implica em \(s(n) \in X\), então \(X = N\).&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Busque mais &lt;a href=&quot;https://github.com/rlaunemacedo/artigos&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="matematica" /><category term="peano" /><category term="axioma" /><summary type="html">Por R N Launé Macêdo</summary></entry><entry><title type="html">Jekyll Doc Theme is published!</title><link href="http://localhost:4000/posts/blog/2017/05/03/jekyll-doc-theme/" rel="alternate" type="text/html" title="Jekyll Doc Theme is published!" /><published>2017-05-03T00:00:00-03:00</published><updated>2017-05-03T00:00:00-03:00</updated><id>http://localhost:4000/posts/blog/2017/05/03/jekyll-doc-theme</id><content type="html" xml:base="http://localhost:4000/posts/blog/2017/05/03/jekyll-doc-theme/">&lt;p&gt;A new custom Jekyll theme for documentation and blogging is out. It is ideal for Open Source Software projects to publish under &lt;a href=&quot;https://pages.github.com&quot;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Your contribution is welcome!&lt;/p&gt;</content><author><name>aksakalli</name></author><summary type="html">A new custom Jekyll theme for documentation and blogging is out. It is ideal for Open Source Software projects to publish under GitHub Pages.</summary></entry></feed>

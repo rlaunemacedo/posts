@@ -49,13 +49,33 @@
 
   
   {
-  "title": "Jekyll Doc Theme is published!",
-  "url": "/posts/blog/2017/05/03/jekyll-doc-theme/"
+  "title": "Deu Certo",
+  "url": "/posts/blog/2023/12/03/deu-certo/"
   },
   
   {
-  "title": "Welcome to Jekyll!",
-  "url": "/posts/blog/2017/02/01/welcome-to-jekyll/"
+  "title": "Raiz de dois não é racional",
+  "url": "/posts/blog/2023/05/16/raizq-dois-nao-eh-racional/"
+  },
+  
+  {
+  "title": "Princípio da Indução",
+  "url": "/posts/blog/2023/05/14/principio-da-inducao/"
+  },
+  
+  {
+  "title": "O Conjunto Vazio",
+  "url": "/posts/blog/2023/05/12/conjunto-vazio/"
+  },
+  
+  {
+  "title": "Axiomas de Peano",
+  "url": "/posts/blog/2023/05/10/axiomas-de-peano/"
+  },
+  
+  {
+  "title": "Jekyll Doc Theme is published!",
+  "url": "/posts/blog/2017/05/03/jekyll-doc-theme/"
   }
   
 ]
