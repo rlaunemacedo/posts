@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR"><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/posts/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/posts/" rel="alternate" type="text/html" hreflang="pt-BR" /><updated>2023-12-04T13:58:29-03:00</updated><id>http://localhost:4000/posts/feed.xml</id><title type="html">Meus posts</title><subtitle>rlaunemacedo. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Deu Certo</title><link href="http://localhost:4000/posts/blog/2023/12/03/deu-certo/" rel="alternate" type="text/html" title="Deu Certo" /><published>2023-12-03T12:30:53-03:00</published><updated>2023-12-03T12:30:53-03:00</updated><id>http://localhost:4000/posts/blog/2023/12/03/deu-certo</id><content type="html" xml:base="http://localhost:4000/posts/blog/2023/12/03/deu-certo/">&lt;h3 id=&quot;salvar-usuário-e-senha-do-git&quot;&gt;Salvar usuário e senha do git&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR"><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/posts/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/posts/" rel="alternate" type="text/html" hreflang="pt-BR" /><updated>2023-12-04T15:31:11-03:00</updated><id>http://localhost:4000/posts/feed.xml</id><title type="html">Meus posts</title><subtitle>rlaunemacedo. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Deu Certo</title><link href="http://localhost:4000/posts/blog/2023/12/03/deu-certo/" rel="alternate" type="text/html" title="Deu Certo" /><published>2023-12-03T12:30:53-03:00</published><updated>2023-12-03T12:30:53-03:00</updated><id>http://localhost:4000/posts/blog/2023/12/03/deu-certo</id><content type="html" xml:base="http://localhost:4000/posts/blog/2023/12/03/deu-certo/">&lt;h3 id=&quot;salvar-usuário-e-senha-do-git-&quot;&gt;Salvar usuário e senha do git &lt;i class=&quot;fa fa-github&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/h3&gt;
 &lt;p&gt;Salvando o usuário e sua senhoa por 8h (8 x 60 x 60 = 28.800):&lt;/p&gt;
 &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; credential.helper &lt;span class=&quot;s1&quot;&gt;&apos;cache --timeout=28800&apos;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -6,30 +6,37 @@
 &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; credential.helper store
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;intalação-jekyll&quot;&gt;Intalação Jekyll&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Desistalar o Ruby
-sudo apt-get remove ruby –auto-remove&lt;/li&gt;
-  &lt;li&gt;Intalar rbenv
-sudo apt install rbenv&lt;/li&gt;
-  &lt;li&gt;Instalar Git
-cd $HOME
-sudo apt-get update
-sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libxml2-dev libxslt1-dev libcurl4-openssl-dev libffi-dev
-git clone https://github.com/rbenv/rbenv.git ~/.rbenv
-echo ‘export PATH=”$HOME/.rbenv/bin:$PATH”’ » ~/.bashrc
-echo ‘eval “$(rbenv init -)”’ » ~/.bashrc
-exec $SHELL&lt;/li&gt;
-  &lt;li&gt;Instalar Ruby
-sudo apt install rbenv
-rbenv install 3.2.0
-rbenv global 3.2.0&lt;/li&gt;
-  &lt;li&gt;Intalar Jekyll e Bundler
-gem install jekyll bundler
-rbenv rehash&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h3 id=&quot;intalação-jekyll-&quot;&gt;Intalação Jekyll &lt;i class=&quot;fa fa-list&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/h3&gt;
+&lt;h4 id=&quot;1-desistalar-o-ruby&quot;&gt;1. Desistalar o Ruby&lt;/h4&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get remove ruby &lt;span class=&quot;nt&quot;&gt;--auto-remove&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;iniciando-um-projeto-jekyll&quot;&gt;Iniciando um Projeto Jekyll&lt;/h3&gt;
+&lt;h4 id=&quot;2-instalar-rbenv&quot;&gt;2. Instalar rbenv&lt;/h4&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;rbenv
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;3-instalar-git&quot;&gt;3. Instalar Git&lt;/h4&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libxml2-dev libxslt1-dev libcurl4-openssl-dev libffi-dev
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;export PATH=&quot;$HOME/.rbenv/bin:$PATH&quot;&apos;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; ~/.bashrc
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;eval &quot;$(rbenv init -)&quot;&apos;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; ~/.bashrc
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$SHELL&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;4-instalar-ruby&quot;&gt;4. Instalar Ruby&lt;/h4&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;rbenv
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;rbenv &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;3.2.0
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;rbenv global 3.2.0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;5-instalar-jekyll-e-bundler&quot;&gt;5. Instalar Jekyll e Bundler&lt;/h4&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;jekyll bundler
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;rbenv rehash
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;iniciando-um-projeto-jekyll-&quot;&gt;Iniciando um Projeto Jekyll &lt;i class=&quot;fa fa-rocket&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/h3&gt;
 
 &lt;p&gt;Para facilitar, vamos imaginar que existe uma conta &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rpatricio&lt;/code&gt; no &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GitHub&lt;/code&gt; 
 na qual foi criado um repositório chamado &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;blog&lt;/code&gt; para dsahjk um site.&lt;/p&gt;
