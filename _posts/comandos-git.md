@@ -169,7 +169,7 @@ git pull <repositório-remoto>
 ``
 
 Essa operação pode causar conflitos que você precisará resolver manualmente.
-9. Git revert
+### 9. git revert
 
 Às vezes, precisamos desfazer as alterações que fizemos. Existem várias maneiras de 
 se desfazer as alterações em nosso espaço de trabalho local ou remotamente 

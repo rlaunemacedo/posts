@@ -12,7 +12,7 @@ git_edit_address: https://github.com/rlaunemacedo/posts/_posts
 
 # theme options from https://bootswatch.com/3/
 # comment out this to use default Bootstrap
-bootwatch: paper # cerulean cosmo custom cyborg darkly flatly journal lumen readable sandstone simplex slate solar spacelab superhero united yeti
+bootwatch: flatly # ****yeti united **superhero spacelab solar slate simplex sandstone readable lumen journal  **darkly *cyborg custom ***cosmo cerulean paper
 
 # Build settings
 markdown: kramdown
