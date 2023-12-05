@@ -14,7 +14,7 @@ Usarei como exemplo a minha conta em `https://github.com/rlaunemacedo`. Criei um
 `repositório` chamado `posts` para hospedar o *site* construído neste tutorial.
 
 #### O ambiente no computador
-##### Meu ambiente de trabalho é Linux Mint 21.2, Cinnamon 5.8.
+**Meu ambiente de trabalho é Linux Mint 21.2, Cinnamon 5.8.**
 
 Vamos criar um diretório chamado `sites` armazenado em `$HOME`:
 
