@@ -8,14 +8,17 @@ tags:
   - tutorial
 ---
 **Por R N Launé Macêdo**
-
-Timon - MA, 25/nov/2023. 
+Timon-MA, 25/nov/2023. 
 
 #djangosqlite
 
 Baseei os meus estudos nesta [TreinaWeb](https://www.youtube.com/watch?v=MsUL3Pgofl4&t=374s) e em outras fontes localmente citadas.
 
-Meu ambiente de trabalho é Linux Mint 21.2, Cinnamon 5.8.
+Para a implementação deste projeto, criei um ambiente virtual em um diretório (`e.tarefas`) criado exclusivamente para esta finalidade.
+
+Utilizo um notebook com sistema operacional **Linux Mint 21.2, Cinnamon 5.8**.
+
+Agora vamos colocar a mão na massa.
 
 ```shell
 $ mkdir e.tarefas
