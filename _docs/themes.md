@@ -1,11 +1,8 @@
 ---
-title: Themes
+title: Padrões de cor
 permalink: /docs/themes/
 ---
-
-By default, this website uses `paper` theme, but you can change it to another [bootwatch theme](https://bootswatch.com/3/) by setting
-`bootwatch` variable in `_config.yml` file.
-(Don't forget to restart `Jekyll` if you are running locally because the configuration is not re-read upon change.)
+Por padrão, este site usa o tema `paper`, mas você pode alterá-lo para outro tema [bootwatch](https://bootswatch.com/3/) definindo a variável `bootwatch` no arquivo `_config.yml`. (Não se esqueça de reiniciar o `Jekyll` se estiver executando localmente para que as alterações possam ser efetivadas).
 
 <div class="row">
 
