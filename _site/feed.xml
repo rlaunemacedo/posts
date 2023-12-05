@@ -1,13 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR"><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/posts/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/posts/" rel="alternate" type="text/html" hreflang="pt-BR" /><updated>2023-12-04T21:57:05-03:00</updated><id>http://localhost:4000/posts/feed.xml</id><title type="html">Meus posts</title><subtitle>rlaunemacedo. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Deu Certo</title><link href="http://localhost:4000/posts/blog/2023/12/03/deu-certo/" rel="alternate" type="text/html" title="Deu Certo" /><published>2023-12-03T12:30:53-03:00</published><updated>2023-12-03T12:30:53-03:00</updated><id>http://localhost:4000/posts/blog/2023/12/03/deu-certo</id><content type="html" xml:base="http://localhost:4000/posts/blog/2023/12/03/deu-certo/">&lt;h3 id=&quot;salvar-usuário-e-senha-do-git-&quot;&gt;Salvar usuário e senha do git &lt;i class=&quot;fa fa-github&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/h3&gt;
-&lt;p&gt;Salvando o usuário e sua senhoa por 8h (8 x 60 x 60 = 28.800):&lt;/p&gt;
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; credential.helper &lt;span class=&quot;s1&quot;&gt;&apos;cache --timeout=28800&apos;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Salvando o usuário e sua senha definitivamente:&lt;/p&gt;
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; credential.helper store
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;intalação-jekyll-&quot;&gt;Intalação Jekyll &lt;i class=&quot;fa fa-list&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/h3&gt;
-&lt;h4 id=&quot;1-desistalar-o-ruby&quot;&gt;1. Desistalar o Ruby&lt;/h4&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR"><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/posts/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/posts/" rel="alternate" type="text/html" hreflang="pt-BR" /><updated>2023-12-05T09:16:44-03:00</updated><id>http://localhost:4000/posts/feed.xml</id><title type="html">Meus posts</title><subtitle>rlaunemacedo. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Inatalação Jekyll</title><link href="http://localhost:4000/posts/blog/2023/12/05/instalacao-jekyll/" rel="alternate" type="text/html" title="Inatalação Jekyll" /><published>2023-12-05T00:00:00-03:00</published><updated>2023-12-05T00:00:00-03:00</updated><id>http://localhost:4000/posts/blog/2023/12/05/instalacao-jekyll</id><content type="html" xml:base="http://localhost:4000/posts/blog/2023/12/05/instalacao-jekyll/">&lt;h4 id=&quot;1-desistalar-o-ruby&quot;&gt;1. Desistalar o Ruby&lt;/h4&gt;
 &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get remove ruby &lt;span class=&quot;nt&quot;&gt;--auto-remove&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -34,14 +25,17 @@
 &lt;h4 id=&quot;5-instalar-jekyll-e-bundler&quot;&gt;5. Instalar Jekyll e Bundler&lt;/h4&gt;
 &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;jekyll bundler
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;rbenv rehash
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="jekyll" /><category term="tutorial" /><summary type="html">1. Desistalar o Ruby $ sudo apt-get remove ruby --auto-remove 2. Instalar rbenv $ sudo apt install rbenv 3. Instalar Git $ cd $HOME $ sudo apt-get update $ sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libxml2-dev libxslt1-dev libcurl4-openssl-dev libffi-dev $ git clone https://github.com/rbenv/rbenv.git ~/.rbenv $ echo &apos;export PATH=&quot;$HOME/.rbenv/bin:$PATH&quot;&apos; &amp;gt;&amp;gt; ~/.bashrc $ echo &apos;eval &quot;$(rbenv init -)&quot;&apos; &amp;gt;&amp;gt; ~/.bashrc $ exec $SHELL</summary></entry><entry><title type="html">Um site GitHub/Jekyll</title><link href="http://localhost:4000/posts/blog/2023/12/05/projeto-jekyll/" rel="alternate" type="text/html" title="Um site GitHub/Jekyll" /><published>2023-12-05T00:00:00-03:00</published><updated>2023-12-05T00:00:00-03:00</updated><id>http://localhost:4000/posts/blog/2023/12/05/projeto-jekyll</id><content type="html" xml:base="http://localhost:4000/posts/blog/2023/12/05/projeto-jekyll/">&lt;h4 id=&quot;uma-conta-no-github&quot;&gt;Uma conta no GitHub&lt;/h4&gt;
+&lt;p&gt;Primeiro quero exclarecer que para executar todos os passos descritos neste tutorial, 
+você terá que possuir ou ter acesso a uma conta 
+no &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GitHub&lt;/code&gt;. Não entrarei aqui nos detalhes de como criar uma conta no GitHub.&lt;/p&gt;
 
-&lt;h3 id=&quot;iniciando-um-projeto-jekyll-&quot;&gt;Iniciando um Projeto Jekyll &lt;i class=&quot;fa fa-rocket&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/h3&gt;
-
-&lt;p&gt;A título de exercício, vamos imaginar que já exista uma conta chamada &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rpatricio&lt;/code&gt; no &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GitHub&lt;/code&gt; 
-na qual foi criado um repositório de nome &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;blog&lt;/code&gt; para hospedar um site.&lt;/p&gt;
+&lt;p&gt;Usarei como exemplo a minha conta em &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://github.com/rlaunemacedo&lt;/code&gt;. Criei um novo
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;repositório&lt;/code&gt; chamado &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;posts&lt;/code&gt; para hospedar o &lt;em&gt;site&lt;/em&gt; construído neste tutorial.&lt;/p&gt;
 
 &lt;h4 id=&quot;o-ambiente-no-computador&quot;&gt;O ambiente no computador&lt;/h4&gt;
+&lt;h5 id=&quot;meu-ambiente-de-trabalho-é-linux-mint-212-cinnamon-58&quot;&gt;Meu ambiente de trabalho é Linux Mint 21.2, Cinnamon 5.8.&lt;/h5&gt;
+
 &lt;p&gt;Vamos criar um diretório chamado &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sites&lt;/code&gt; armazenado em &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$HOME&lt;/code&gt;:&lt;/p&gt;
 
 &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;mkdir&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;/sites
@@ -52,7 +46,7 @@ na qual foi criado um repositório de nome &lt;code class=&quot;language-plainte
 &lt;p&gt;Para clonar o repositório vamos usar o comando:&lt;/p&gt;
 
 &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;/sites
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git clone https://github.com/rpatricio/blog.git
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git clone https://github.com/rlaunemacedo/posts.git
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h4 id=&quot;criando-o-projeto-jekyll&quot;&gt;Criando o projeto Jekyll&lt;/h4&gt;
@@ -112,23 +106,29 @@ Server address: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&
 &lt;p&gt;Agora vamos alterar algumas configurações no segundo arquivo:&lt;/p&gt;
 
 &lt;p&gt;Arquivo: &lt;strong&gt;_config.yml&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;title: &amp;lt;Dê um título ao seu blog &amp;gt;
-email: your-email@example.com
-description: &amp;gt;- # this means to ignore newlines until &quot;baseurl:&quot;
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: &quot;&quot; # the subpath of your site, e.g. /blog
-url: &quot;https://&amp;lt;user-github&amp;gt;.github.io&quot; # the base hostname &amp;amp; protocol for your site, e.g. http://example.com
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;lt;Dê um título ao seu blog &amp;gt;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;your-email@example.com&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;&amp;gt;-&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# this means to ignore newlines until &quot;baseurl:&quot;&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;Write an awesome description for your new site here. You can edit this&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;line in _config.yml. It will appear in your document head meta (for&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;Google search results) and in your feed.xml site description.&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;baseurl&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# the subpath of your site, e.g. /blog&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;https://&amp;lt;user-github&amp;gt;.github.io&quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# the base hostname &amp;amp; protocol for your site, e.g. http://example.com&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;Exemplo:&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;title: Meu blog
-email: your-email@example.com
-baseurl: &quot;/blog&quot;
-url: &quot;https://rpatricio.github.io&quot;
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Meu blog&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;your-email@example.com&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;baseurl&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;/posts&quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# the subpath of your site, e.g. /blog/&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://rlaunemacedo.github.io&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# the base hostname &amp;amp; protocol for your site&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;Proto. Agora é só subir seu projeto para o GitHub a cada alteração que você faça no
-blog tipo alteração de configuração, inclusão de novos blogs e demais ações. Aproveite!&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="tutorial" /><summary type="html">Salvar usuário e senha do git Salvando o usuário e sua senhoa por 8h (8 x 60 x 60 = 28.800): $ git config --global credential.helper &apos;cache --timeout=28800&apos; Salvando o usuário e sua senha definitivamente: $ git config --global credential.helper store</summary></entry><entry><title type="html">Raiz de dois não é racional</title><link href="http://localhost:4000/posts/blog/2023/05/16/raizq-dois-nao-eh-racional/" rel="alternate" type="text/html" title="Raiz de dois não é racional" /><published>2023-05-16T12:24:53-03:00</published><updated>2023-05-16T12:24:53-03:00</updated><id>http://localhost:4000/posts/blog/2023/05/16/raizq-dois-nao-eh-racional</id><content type="html" xml:base="http://localhost:4000/posts/blog/2023/05/16/raizq-dois-nao-eh-racional/">&lt;p&gt;&lt;strong&gt;Por R N Launé Macêdo&lt;/strong&gt;&lt;/p&gt;
+blog tipo alteração de configuração, inclusão de novos blogs e demais ações. Aproveite!&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="tutorial" /><summary type="html">Uma conta no GitHub Primeiro quero exclarecer que para executar todos os passos descritos neste tutorial, você terá que possuir ou ter acesso a uma conta no GitHub. Não entrarei aqui nos detalhes de como criar uma conta no GitHub.</summary></entry><entry><title type="html">Deu Certo</title><link href="http://localhost:4000/posts/blog/2023/12/03/deu-certo/" rel="alternate" type="text/html" title="Deu Certo" /><published>2023-12-03T12:30:53-03:00</published><updated>2023-12-03T12:30:53-03:00</updated><id>http://localhost:4000/posts/blog/2023/12/03/deu-certo</id><content type="html" xml:base="http://localhost:4000/posts/blog/2023/12/03/deu-certo/">&lt;h3 id=&quot;salvar-usuário-e-senha-do-git-&quot;&gt;Salvar usuário e senha do git &lt;i class=&quot;fa fa-github&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/h3&gt;
+&lt;p&gt;Salvando o usuário e sua senhoa por 8h (8 x 60 x 60 = 28.800):&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; credential.helper &lt;span class=&quot;s1&quot;&gt;&apos;cache --timeout=28800&apos;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Salvando o usuário e sua senha definitivamente:&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; credential.helper store
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="jekyll" /><category term="tutorial" /><summary type="html">Salvar usuário e senha do git Salvando o usuário e sua senhoa por 8h (8 x 60 x 60 = 28.800): $ git config --global credential.helper &apos;cache --timeout=28800&apos; Salvando o usuário e sua senha definitivamente: $ git config --global credential.helper store</summary></entry><entry><title type="html">Raiz de dois não é racional</title><link href="http://localhost:4000/posts/blog/2023/05/16/raizq-dois-nao-eh-racional/" rel="alternate" type="text/html" title="Raiz de dois não é racional" /><published>2023-05-16T12:24:53-03:00</published><updated>2023-05-16T12:24:53-03:00</updated><id>http://localhost:4000/posts/blog/2023/05/16/raizq-dois-nao-eh-racional</id><content type="html" xml:base="http://localhost:4000/posts/blog/2023/05/16/raizq-dois-nao-eh-racional/">&lt;p&gt;&lt;strong&gt;Por R N Launé Macêdo&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;#raizquadradadedois&lt;/p&gt;
 

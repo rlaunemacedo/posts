@@ -4,7 +4,7 @@
     
     
     {
-      "title": "Welcome",
+      "title": "Bem vindos",
       "url": "/posts/docs/home/"
     },
   
@@ -18,7 +18,7 @@
     
     
     {
-      "title": "Customization",
+      "title": "Costumização",
       "url": "/posts/docs/customization/"
     },
   
@@ -45,8 +45,25 @@
       "url": "/posts/docs/bootstrap/"
     },
   
+    
+    
+    {
+      "title": "Modelo Welcome",
+      "url": "/posts/docs/modelo-index/"
+    },
+  
 
 
+  
+  {
+  "title": "Um site GitHub/Jekyll",
+  "url": "/posts/blog/2023/12/05/projeto-jekyll/"
+  },
+  
+  {
+  "title": "Inatalação Jekyll",
+  "url": "/posts/blog/2023/12/05/instalacao-jekyll/"
+  },
   
   {
   "title": "Deu Certo",

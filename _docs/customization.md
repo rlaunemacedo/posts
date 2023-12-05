@@ -1,12 +1,11 @@
 ---
-title: Customization
+title: Costumização
 permalink: /docs/customization/
 ---
 
-This template uses [bootstrap-sass](https://github.com/twbs/bootstrap-sass) along with [bootwatch themes](https://bootswatch.com/3).
-You can create your own theme by writing your own `sass` files.
+Este modelo usa [bootstrap-sass](https://github.com/twbs/bootstrap-sass) junto com temas [bootwatch themes](https://bootswatch.com/3). Você pode criar seu próprio tema escrevendo seus próprios arquivos `sass`.
 
-Create a new a theme folder like `_sass/bootwatch/custom` and set your `bootwatch` variables in `_config.yml` to `custom`:
+Crie uma nova pasta de tema tipo `_sass/bootwatch/custom` e defina suas variáveis `bootwatch` em `_config.yml` como `custom`:
 
 ```yaml
 bootwatch: custom

@@ -1,11 +1,12 @@
-- title: Getting Started
+- title: Começando
   docs:
   - home
   - themes
   - customization
 
-- title: Examples
+- title: Examplos
   docs:
   - cheatsheet
   - font-awesome
   - bootstrap
+  - modelo-index
