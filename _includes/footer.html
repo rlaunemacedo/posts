@@ -1,6 +1,18 @@
 <footer class="footer">
     <div class="container">
 
+        {% if site.links %}
+          {% for item in site.links %}
+            {% if item.label and item.url %}
+              <li><a href="{{ item.url }}" rel="nofollow noopener noreferrer">
+                <i class="{{ item.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> 
+                  {{ item.label }}</a>
+                </li>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+  
+
         <p class="text-center">
             {{ site.title }} {{ site.time | date: '%Y' }} |
             Powered by <a href="https://github.com/aksakalli/jekyll-doc-theme">Jekyll Doc Theme</a>

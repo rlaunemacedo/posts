@@ -9,6 +9,28 @@ baseurl: "/posts" # the subpath of your site, e.g. /blog/
 url: https://rlaunemacedo.github.io # the base hostname & protocol for your site
 git_address: https://github.com/rlaunemacedo/posts
 git_edit_address: https://github.com/rlaunemacedo/posts/_posts
+links: 
+  - label: "Twitter"
+    icon: "fa fa-twitter-square"
+    # url:
+  - label: "Facebook"
+    icon: "fa fa-facebook-square"
+    url: https://www.facebook.com/rnlaune.macedo
+  - label: "GitHub"
+    icon: "fa fa-github"
+    url: https://github.com/rlaunemacedo/
+  - label: "GitLab"
+    icon: "fa fa-gitlab"
+    # url:
+  - label: "Bitbucket"
+    icon: "fa fa-bitbucket"
+    # url:
+  - label: "Instagram"
+    icon: "fa fa-instagram"
+    url: https://www.instagram.com/rlaunemacedo/
+
+
+
 
 # theme options from https://bootswatch.com/3/
 # comment out this to use default Bootstrap
@@ -56,3 +78,4 @@ collections:
   posts:
     permalink: /blog/:year/:month/:day/:title/
     output: true
+
