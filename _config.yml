@@ -29,9 +29,6 @@ links:
     icon: "fa fa-instagram"
     url: https://www.instagram.com/rlaunemacedo/
 
-
-
-
 # theme options from https://bootswatch.com/3/
 # comment out this to use default Bootstrap
 bootwatch: flatly # ****yeti united **superhero spacelab solar slate simplex sandstone readable lumen journal  **darkly *cyborg custom ***cosmo cerulean paper

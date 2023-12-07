@@ -7,13 +7,29 @@ layout: default
 
         <div class="col-md-4">
             <div class="well">
-                <h4>RECENT POSTS</h4>
+                <h4>Postagens Recentes</h4>
                 <ul class="list-unstyled post-list-container">
                     {% for post in site.posts limit:10 %}
                     <li><a href="{{ post.url | relative_url }}" {% if page.title==post.title %} class="active" {% endif %}>{{ post.title }}</a></li>
                     {% endfor %}
                     <li><a href="{{ "/allposts" | relative_url }}">All posts ...</a></li>
                 </ul>
+            </div>
+
+            <div class="well">
+                {% if site.links %}
+                <h4>Redes Sociais:</h4>
+                  <ul style="list-style: none; padding-left: 10px;">
+                    {% for item in site.links %}
+                      {% if item.label and item.url %}
+                        <li style="padding-top: 0px;"><a href="{{ item.url }}" rel="nofollow noopener noreferrer">
+                          <i class="{{ item.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> 
+                          {{ item.label }}</a>
+                        </li>
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                {% endif %}
             </div>
         </div>
 
