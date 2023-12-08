@@ -7,7 +7,7 @@ tags:
 ---
 #### Uma conta no GitHub
 Primeiro quero exclarecer que para executar todos os passos descritos neste tutorial, 
-você terá que possuir ou ter acesso a uma conta 
+você **terá** que possuir ou ter acesso a uma conta 
 no `GitHub`. Não entrarei aqui nos detalhes de como criar uma conta no GitHub.
 
 Usarei como exemplo a minha conta em `https://github.com/rlaunemacedo`. Criei um novo
@@ -54,7 +54,7 @@ gem "minima", "~> 2.5"
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
 ```
-Neste fragmento de códigos do arquivo, **comente** com `#` a primeira linha e **descomente** a última. Deverá ficar assim:
+Neste fragmento de códigos no arquivo, **comente** com `#` a primeira linha e **descomente** a última. Deverá ficar assim:
 
 Arquivo: **Gemfile**
 ```

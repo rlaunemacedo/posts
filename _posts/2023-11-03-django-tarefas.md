@@ -106,7 +106,7 @@ Funcionou!
 
 ### As templates
 
-Agora vamos criar, coforme manda a *documentação*, detro do diretório `tarefas` a estrutura `templates/tarefas`:
+Agora vamos criar, coforme manda a *documentação*, dentro do diretório `tarefas` a estrutura `templates/tarefas`:
 
 Diretório: `tarefas`
 
