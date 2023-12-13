@@ -70,14 +70,22 @@
     <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container navbar-container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+            <button type="button" 
+                    class="navbar-toggle collapsed" 
+                    data-toggle="collapse" 
+                    data-target="#navbar" 
+                    aria-expanded="false" 
+                    aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
             <a class="navbar-brand" href="/posts/">
-                <span><img src="/posts/assets/img/logonav.png" alt="Logo"></span> &nbsp;&nbsp;Meus posts
+                <span>
+                    <img src="/posts/assets/img/logonav.png" 
+                         alt="Logo">
+                </span> &nbsp;&nbsp;Meus posts
             </a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
@@ -86,14 +94,21 @@
                 <li  class="active" ><a href="/posts/blog/2023/12/05/projeto-jekyll/">Postagens</a></li>
             </ul>
             <div class="navbar-right">
-                <form class="navbar-form navbar-left">
+                <form class="navbar-form navbar-left" action="search.html" method="get">
                     <div class="form-group has-feedback">
-                        <input id="search-box" type="search" class="form-control" placeholder="Search...">
+                        <input id="search-box" 
+                               type="search" 
+                               class="form-control" 
+                               placeholder="Search...">
+                        <!--input type="submit" value="search"-->
                         <i class="fa fa-search form-control-feedback"></i>
                     </div>
                 </form>
+
                 <ul class="nav navbar-nav">
-                    <li><a href="https://github.com/rlaunemacedo/posts"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/rlaunemacedo/posts">
+                        <i class="fa fa-github" aria-hidden="true"></i></a>
+                    </li>
                 </ul>
             </div>
         </div>

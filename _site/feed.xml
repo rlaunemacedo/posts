@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR"><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/posts/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/posts/" rel="alternate" type="text/html" hreflang="pt-BR" /><updated>2023-12-07T09:13:04-03:00</updated><id>http://localhost:4000/posts/feed.xml</id><title type="html">Meus posts</title><subtitle>rlaunemacedo. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Inatalação Jekyll</title><link href="http://localhost:4000/posts/blog/2023/12/05/instalacao-jekyll/" rel="alternate" type="text/html" title="Inatalação Jekyll" /><published>2023-12-05T00:00:00-03:00</published><updated>2023-12-05T00:00:00-03:00</updated><id>http://localhost:4000/posts/blog/2023/12/05/instalacao-jekyll</id><content type="html" xml:base="http://localhost:4000/posts/blog/2023/12/05/instalacao-jekyll/">&lt;h4 id=&quot;1-desistalar-o-ruby&quot;&gt;1. Desistalar o Ruby&lt;/h4&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR"><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/posts/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/posts/" rel="alternate" type="text/html" hreflang="pt-BR" /><updated>2023-12-12T21:02:30-03:00</updated><id>http://localhost:4000/posts/feed.xml</id><title type="html">Meus posts</title><subtitle>rlaunemacedo. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Inatalação Jekyll</title><link href="http://localhost:4000/posts/blog/2023/12/05/instalacao-jekyll/" rel="alternate" type="text/html" title="Inatalação Jekyll" /><published>2023-12-05T00:00:00-03:00</published><updated>2023-12-05T00:00:00-03:00</updated><id>http://localhost:4000/posts/blog/2023/12/05/instalacao-jekyll</id><content type="html" xml:base="http://localhost:4000/posts/blog/2023/12/05/instalacao-jekyll/">&lt;h4 id=&quot;1-desistalar-o-ruby&quot;&gt;1. Desistalar o Ruby&lt;/h4&gt;
 &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get remove ruby &lt;span class=&quot;nt&quot;&gt;--auto-remove&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -27,7 +27,7 @@
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;rbenv rehash
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="jekyll" /><category term="tutorial" /><summary type="html">1. Desistalar o Ruby $ sudo apt-get remove ruby --auto-remove 2. Instalar rbenv $ sudo apt install rbenv 3. Instalar Git $ cd $HOME $ sudo apt-get update $ sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libxml2-dev libxslt1-dev libcurl4-openssl-dev libffi-dev $ git clone https://github.com/rbenv/rbenv.git ~/.rbenv $ echo &apos;export PATH=&quot;$HOME/.rbenv/bin:$PATH&quot;&apos; &amp;gt;&amp;gt; ~/.bashrc $ echo &apos;eval &quot;$(rbenv init -)&quot;&apos; &amp;gt;&amp;gt; ~/.bashrc $ exec $SHELL</summary></entry><entry><title type="html">Um site GitHub/Jekyll</title><link href="http://localhost:4000/posts/blog/2023/12/05/projeto-jekyll/" rel="alternate" type="text/html" title="Um site GitHub/Jekyll" /><published>2023-12-05T00:00:00-03:00</published><updated>2023-12-05T00:00:00-03:00</updated><id>http://localhost:4000/posts/blog/2023/12/05/projeto-jekyll</id><content type="html" xml:base="http://localhost:4000/posts/blog/2023/12/05/projeto-jekyll/">&lt;h4 id=&quot;uma-conta-no-github&quot;&gt;Uma conta no GitHub&lt;/h4&gt;
 &lt;p&gt;Primeiro quero exclarecer que para executar todos os passos descritos neste tutorial, 
-você terá que possuir ou ter acesso a uma conta 
+você &lt;strong&gt;terá&lt;/strong&gt; que possuir ou ter acesso a uma conta 
 no &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GitHub&lt;/code&gt;. Não entrarei aqui nos detalhes de como criar uma conta no GitHub.&lt;/p&gt;
 
 &lt;p&gt;Usarei como exemplo a minha conta em &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://github.com/rlaunemacedo&lt;/code&gt;. Criei um novo
@@ -70,7 +70,7 @@ gem &quot;minima&quot;, &quot;~&amp;gt; 2.5&quot;
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem &quot;github-pages&quot;, group: :jekyll_plugins
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Neste fragmento de códigos do arquivo, &lt;strong&gt;comente&lt;/strong&gt; com &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#&lt;/code&gt; a primeira linha e &lt;strong&gt;descomente&lt;/strong&gt; a última. Deverá ficar assim:&lt;/p&gt;
+&lt;p&gt;Neste fragmento de códigos no arquivo, &lt;strong&gt;comente&lt;/strong&gt; com &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#&lt;/code&gt; a primeira linha e &lt;strong&gt;descomente&lt;/strong&gt; a última. Deverá ficar assim:&lt;/p&gt;
 
 &lt;p&gt;Arquivo: &lt;strong&gt;Gemfile&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# gem &quot;jekyll&quot;, &quot;~&amp;gt; 4.3.2&quot;
@@ -219,7 +219,7 @@ Quit the server with CONTROL-C.
 
 &lt;h3 id=&quot;as-templates&quot;&gt;As templates&lt;/h3&gt;
 
-&lt;p&gt;Agora vamos criar, coforme manda a &lt;em&gt;documentação&lt;/em&gt;, detro do diretório &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tarefas&lt;/code&gt; a estrutura &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;templates/tarefas&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;Agora vamos criar, coforme manda a &lt;em&gt;documentação&lt;/em&gt;, dentro do diretório &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tarefas&lt;/code&gt; a estrutura &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;templates/tarefas&lt;/code&gt;:&lt;/p&gt;
 
 &lt;p&gt;Diretório: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tarefas&lt;/code&gt;&lt;/p&gt;
 

@@ -1,5 +1,5 @@
 ---
-title: Costumização
+title: Customização
 permalink: /docs/customization/
 ---
 
