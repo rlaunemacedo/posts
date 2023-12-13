@@ -51,7 +51,7 @@ $$
 
 Ou seja, $$Q$$ é o conjuntos dos elementos de $$D$$ que são maiores do que $$6$$, neste caso acabamos de definir um conjunmto vazio, uma vez que em $$D$$ não elementos com esta prorpiedade. Abreviadamente escrevemos $$Q = \{  \}$$ ou $$Q = \varnothing$$.
 
-Posteriormente, pode-se verificar que, em particular, toda interseção de conjuntos **disjuntos*** define o conjunto vazio. Observar neste exemplo que 
+Posteriormente, pode-se verificar que, em particular, toda interseção de conjuntos **disjuntos*** define o conjunto vazio. Observe neste exemplo que 
 
 $$
 Q = \{1,2,3,4,5,6 \} \cap \{x \in \mathbb{R}; x > 6 \} = \varnothing.
