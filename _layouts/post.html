@@ -22,7 +22,10 @@ layout: default
                   <ul style="list-style: none; padding-left: 10px;">
                     {% for item in site.links %}
                       {% if item.label and item.url %}
-                        <li style="padding-top: 0px;"><a href="{{ item.url }}" rel="nofollow noopener noreferrer">
+                        <li style="padding-top: 0px;">
+                          <a href="{{ item.url }}" 
+                             rel="nofollow noopener noreferrer"
+                             target="_blank">
                           <i class="{{ item.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> 
                           {{ item.label }}</a>
                         </li>

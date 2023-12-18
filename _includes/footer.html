@@ -5,8 +5,12 @@
         Siga-me: &nbsp;&nbsp;|
             {% for item in site.links %}
                 {% if item.label and item.url %}
-                    <li style="display:inline-block;"><a href="{{ item.url }}" rel="nofollow noopener noreferrer">
-                        <i class="{{ item.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> 
+                    <li style="display:inline-block;">
+                        <a href="{{ item.url }}" 
+                           rel="nofollow noopener noreferrer"
+                           target="_blank">
+                        <i class="{{ item.icon | default: 'fas fa-link' }}" 
+                           aria-hidden="true"></i> 
                         {{ item.label }}</a> | 
                     </li>
                 {% endif %}
